@@ -38,21 +38,21 @@
           Switcher
         </h5>
         <button type="button"
-          class="ti-btn flex-shrink-0 p-0  transition-none text-defaulttextcolor dark:text-defaulttextcolor/70 hover:text-gray-700 focus:ring-gray-400 focus:ring-offset-white  dark:hover:text-white/80 dark:focus:ring-white/10 dark:focus:ring-offset-white/10"
+          class="ti-btn flex-shrink-0 p-0  transition-none text-defaulttextcolor hover:text-gray-700 focus:ring-gray-400 focus:ring-offset-white "
           data-hs-overlay="#hs-overlay-switcher">
           <span class="sr-only">Close modal</span>
           <i class="ri-close-circle-line leading-none text-lg"></i>
         </button>
       </div>
-      <div class="ti-offcanvas-body !p-0 !border-b dark:border-white/10 z-10 relative !h-auto">
+      <div class="ti-offcanvas-body !p-0 !border-b z-10 relative !h-auto">
         <div class="flex rtl:space-x-reverse" aria-label="Tabs" role="tablist" role="tablist">
           <button type="button"
-            class="hs-tab-active:bg-success/20 w-full !py-2 !px-4 hs-tab-active:border-b-transparent text-defaultsize border-0 hs-tab-active:text-success dark:hs-tab-active:bg-success/20 dark:hs-tab-active:border-b-white/10 dark:hs-tab-active:text-success -mb-px bg-white font-semibold text-center  text-defaulttextcolor dark:text-defaulttextcolor/70 rounded-none hover:text-gray-700 dark:bg-bodybg dark:border-white/10  active"
+            class="hs-tab-active:bg-success/20 w-full !py-2 !px-4 hs-tab-active:border-b-transparent text-defaultsize border-0 hs-tab-active:text-success -mb-px bg-white font-semibold text-center  text-defaulttextcolor rounded-none hover:text-gray-700  active"
             id="switcher-item-1" data-hs-tab="#switcher-1" aria-controls="switcher-1" role="tab">
             Theme Style
           </button>
           <button type="button"
-            class="hs-tab-active:bg-success/20 w-full !py-2 !px-4 hs-tab-active:border-b-transparent text-defaultsize border-0 hs-tab-active:text-success dark:hs-tab-active:bg-success/20 dark:hs-tab-active:border-b-white/10 dark:hs-tab-active:text-success -mb-px  bg-white font-semibold text-center  text-defaulttextcolor dark:text-defaulttextcolor/70 rounded-none hover:text-gray-700 dark:bg-bodybg dark:border-white/10  dark:hover:text-gray-300"
+            class="hs-tab-active:bg-success/20 w-full !py-2 !px-4 hs-tab-active:border-b-transparent text-defaultsize border-0 hs-tab-active:text-success -mb-px  bg-white font-semibold text-center  text-defaulttextcolor rounded-none hover:text-gray-700 "
             id="switcher-item-2" data-hs-tab="#switcher-2" aria-controls="switcher-2" role="tab">
             Theme Colors
           </button>
@@ -66,12 +66,12 @@
               <div class="flex items-center">
                 <input type="radio" name="theme-style" class="ti-form-radio" id="switcher-light-theme" checked>
                 <label for="switcher-light-theme"
-                  class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Light</label>
+                  class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Light</label>
               </div>
               <div class="flex items-center">
                 <input type="radio" name="theme-style" class="ti-form-radio" id="switcher-dark-theme">
                 <label for="switcher-dark-theme"
-                  class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Dark</label>
+                  class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Dark</label>
               </div>
             </div>
           </div>
@@ -80,11 +80,11 @@
             <div class="grid grid-cols-3  switcher-style">
               <div class="flex items-center">
                 <input type="radio" name="direction" class="ti-form-radio" id="switcher-ltr" checked>
-                <label for="switcher-ltr" class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">LTR</label>
+                <label for="switcher-ltr" class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">LTR</label>
               </div>
               <div class="flex items-center">
                 <input type="radio" name="direction" class="ti-form-radio" id="switcher-rtl">
-                <label for="switcher-rtl" class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">RTL</label>
+                <label for="switcher-rtl" class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">RTL</label>
               </div>
             </div>
           </div>
@@ -94,12 +94,12 @@
               <div class="flex items-center">
                 <input type="radio" name="navigation-style" class="ti-form-radio" id="switcher-vertical" checked>
                 <label for="switcher-vertical"
-                  class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Vertical</label>
+                  class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Vertical</label>
               </div>
               <div class="flex items-center">
                 <input type="radio" name="navigation-style" class="ti-form-radio" id="switcher-horizontal">
                 <label for="switcher-horizontal"
-                  class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Horizontal</label>
+                  class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Horizontal</label>
               </div>
             </div>
           </div>
@@ -109,22 +109,22 @@
               <div class="flex">
                 <input type="radio" name="navigation-data-menu-styles" class="ti-form-radio" id="switcher-menu-click"
                   >
-                <label for="switcher-menu-click" class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Menu
+                <label for="switcher-menu-click" class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Menu
                   Click</label>
               </div>
               <div class="flex">
                 <input type="radio" name="navigation-data-menu-styles" class="ti-form-radio" id="switcher-menu-hover">
-                <label for="switcher-menu-hover" class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Menu
+                <label for="switcher-menu-hover" class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Menu
                   Hover</label>
               </div>
               <div class="flex">
                 <input type="radio" name="navigation-data-menu-styles" class="ti-form-radio" id="switcher-icon-click">
-                <label for="switcher-icon-click" class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Icon
+                <label for="switcher-icon-click" class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Icon
                   Click</label>
               </div>
               <div class="flex">
                 <input type="radio" name="navigation-data-menu-styles" class="ti-form-radio" id="switcher-icon-hover">
-                <label for="switcher-icon-hover" class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Icon
+                <label for="switcher-icon-hover" class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Icon
                   Hover</label>
               </div>
             </div>
@@ -135,33 +135,33 @@
               <div class="flex">
                 <input type="radio" name="sidemenu-layout-styles" class="ti-form-radio" id="switcher-default-menu" checked>
                 <label for="switcher-default-menu"
-                  class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold ">Default
+                  class="text-defaultsize text-defaulttextcolor ms-2  font-semibold ">Default
                   Menu</label>
               </div>
               <div class="flex">
                 <input type="radio" name="sidemenu-layout-styles" class="ti-form-radio" id="switcher-closed-menu">
-                <label for="switcher-closed-menu" class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold ">
+                <label for="switcher-closed-menu" class="text-defaultsize text-defaulttextcolor ms-2  font-semibold ">
                   Closed
                   Menu</label>
               </div>
               <div class="flex">
                 <input type="radio" name="sidemenu-layout-styles" class="ti-form-radio" id="switcher-icontext-menu">
-                <label for="switcher-icontext-menu" class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold ">Icon
+                <label for="switcher-icontext-menu" class="text-defaultsize text-defaulttextcolor ms-2  font-semibold ">Icon
                   Text</label>
               </div>
               <div class="flex">
                 <input type="radio" name="sidemenu-layout-styles" class="ti-form-radio" id="switcher-icon-overlay">
-                <label for="switcher-icon-overlay" class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold ">Icon
+                <label for="switcher-icon-overlay" class="text-defaultsize text-defaulttextcolor ms-2  font-semibold ">Icon
                   Overlay</label>
               </div>
               <div class="flex">
                 <input type="radio" name="sidemenu-layout-styles" class="ti-form-radio" id="switcher-detached">
                 <label for="switcher-detached"
-                  class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold ">Detached</label>
+                  class="text-defaultsize text-defaulttextcolor ms-2  font-semibold ">Detached</label>
               </div>
               <div class="flex">
                 <input type="radio" name="sidemenu-layout-styles" class="ti-form-radio" id="switcher-double-menu">
-                <label for="switcher-double-menu" class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Double
+                <label for="switcher-double-menu" class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Double
                   Menu</label>
               </div>
             </div>
@@ -172,17 +172,17 @@
               <div class="flex">
                 <input type="radio" name="data-page-styles" class="ti-form-radio" id="switcher-regular" checked>
                 <label for="switcher-regular"
-                  class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Regular</label>
+                  class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Regular</label>
               </div>
               <div class="flex">
                 <input type="radio" name="data-page-styles" class="ti-form-radio" id="switcher-classic">
                 <label for="switcher-classic"
-                  class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Classic</label>
+                  class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Classic</label>
               </div>
               <div class="flex">
                 <input type="radio" name="data-page-styles" class="ti-form-radio" id="switcher-modern">
                 <label for="switcher-modern"
-                  class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold"> Modern</label>
+                  class="text-defaultsize text-defaulttextcolor ms-2  font-semibold"> Modern</label>
               </div>
             </div>
           </div>
@@ -192,11 +192,11 @@
               <div class="flex">
                 <input type="radio" name="layout-width" class="ti-form-radio" id="switcher-full-width" checked>
                 <label for="switcher-full-width"
-                  class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">FullWidth</label>
+                  class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">FullWidth</label>
               </div>
               <div class="flex">
                 <input type="radio" name="layout-width" class="ti-form-radio" id="switcher-boxed">
-                <label for="switcher-boxed" class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Boxed</label>
+                <label for="switcher-boxed" class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Boxed</label>
               </div>
             </div>
           </div>
@@ -206,12 +206,12 @@
               <div class="flex">
                 <input type="radio" name="data-menu-positions" class="ti-form-radio" id="switcher-menu-fixed" checked>
                 <label for="switcher-menu-fixed"
-                  class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Fixed</label>
+                  class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Fixed</label>
               </div>
               <div class="flex">
                 <input type="radio" name="data-menu-positions" class="ti-form-radio" id="switcher-menu-scroll">
                 <label for="switcher-menu-scroll"
-                  class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Scrollable </label>
+                  class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Scrollable </label>
               </div>
             </div>
           </div>
@@ -220,13 +220,13 @@
             <div class="grid grid-cols-3 switcher-style">
               <div class="flex">
                 <input type="radio" name="data-header-positions" class="ti-form-radio" id="switcher-header-fixed" checked>
-                <label for="switcher-header-fixed" class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">
+                <label for="switcher-header-fixed" class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">
                   Fixed</label>
               </div>
               <div class="flex">
                 <input type="radio" name="data-header-positions" class="ti-form-radio" id="switcher-header-scroll">
                 <label for="switcher-header-scroll"
-                  class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Scrollable
+                  class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Scrollable
                 </label>
               </div>
             </div>
@@ -236,13 +236,13 @@
             <div class="grid grid-cols-3 switcher-style">
               <div class="flex">
                 <input type="radio" name="page-loader" class="ti-form-radio" id="switcher-loader-enable" checked>
-                <label for="switcher-loader-enable" class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">
+                <label for="switcher-loader-enable" class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">
                   Enable</label>
               </div>
               <div class="flex">
                 <input type="radio" name="page-loader" class="ti-form-radio" id="switcher-loader-disable">
                 <label for="switcher-loader-disable"
-                  class="text-defaultsize text-defaulttextcolor dark:text-defaulttextcolor/70 ms-2  font-semibold">Disable
+                  class="text-defaultsize text-defaulttextcolor ms-2  font-semibold">Disable
                 </label>
               </div>
             </div>
@@ -256,7 +256,7 @@
                 <input class="hs-tooltip-toggle ti-form-radio color-input color-white" type="radio" name="menu-colors"
                   id="switcher-menu-light" checked>
                 <span
-                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
+                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm"
                   role="tooltip">
                   Light Menu
                 </span>
@@ -265,7 +265,7 @@
                 <input class="hs-tooltip-toggle ti-form-radio color-input color-dark" type="radio" name="menu-colors"
                   id="switcher-menu-dark">
                 <span
-                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
+                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm"
                   role="tooltip">
                   Dark Menu
                 </span>
@@ -274,7 +274,7 @@
                 <input class="hs-tooltip-toggle ti-form-radio color-input color-primary" type="radio" name="menu-colors"
                   id="switcher-menu-primary">
                 <span
-                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
+                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm"
                   role="tooltip">
                   Color Menu
                 </span>
@@ -283,7 +283,7 @@
                 <input class="hs-tooltip-toggle ti-form-radio color-input color-gradient" type="radio" name="menu-colors"
                   id="switcher-menu-gradient">
                 <span
-                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
+                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm"
                   role="tooltip">
                   Gradient Menu
                 </span>
@@ -292,7 +292,7 @@
                 <input class="hs-tooltip-toggle ti-form-radio color-input color-transparent" type="radio" name="menu-colors"
                   id="switcher-menu-transparent">
                 <span
-                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
+                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm"
                   role="tooltip">
                   Transparent Menu
                 </span>
@@ -309,7 +309,7 @@
                 <input class="hs-tooltip-toggle ti-form-radio color-input color-white !border" type="radio" name="header-colors"
                   id="switcher-header-light" checked>
                 <span
-                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
+                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm"
                   role="tooltip">
                   Light Header
                 </span>
@@ -318,7 +318,7 @@
                 <input class="hs-tooltip-toggle ti-form-radio color-input color-dark" type="radio" name="header-colors"
                   id="switcher-header-dark">
                 <span
-                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
+                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm"
                   role="tooltip">
                   Dark Header
                 </span>
@@ -327,7 +327,7 @@
                 <input class="hs-tooltip-toggle ti-form-radio color-input color-primary" type="radio" name="header-colors"
                   id="switcher-header-primary">
                 <span
-                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
+                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm"
                   role="tooltip">
                   Color Header
                 </span>
@@ -336,7 +336,7 @@
                 <input class="hs-tooltip-toggle ti-form-radio color-input color-gradient" type="radio" name="header-colors"
                   id="switcher-header-gradient">
                 <span
-                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
+                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm"
                   role="tooltip">
                   Gradient Header
                 </span>
@@ -345,7 +345,7 @@
                 <input class="hs-tooltip-toggle ti-form-radio color-input color-transparent" type="radio"
                   name="header-colors" id="switcher-header-transparent">
                 <span
-                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm dark:!bg-black"
+                  class="hs-tooltip-content ti-main-tooltip-content !py-1 !px-2 !bg-black text-xs font-medium !text-white shadow-sm"
                   role="tooltip">
                   Transparent Header
                 </span>
@@ -460,7 +460,7 @@
       <div class="ti-offcanvas-header !py-2 rounded-none">
         <h5 class="text-[.875rem] uppercase mb-0 text-defaulttextcolor font-semibold" id="sidebarLabel">Notifications</h5>
         <button type="button"
-          class="ti-btn flex-shrink-0 p-0  transition-none text-defaulttextcolor dark:text-defaulttextcolor/70 hover:text-gray-700 focus:ring-gray-400 focus:ring-offset-white  dark:hover:text-white/80 dark:focus:ring-white/10 dark:focus:ring-offset-white/10"
+          class="ti-btn flex-shrink-0 p-0  transition-none text-defaulttextcolor hover:text-gray-700 focus:ring-gray-400 focus:ring-offset-white "
           data-hs-overlay="#hs-overlay-chat">
           <span class="sr-only">Close modal</span>
           <i class="ri-close-fill leading-none text-lg"></i>
@@ -470,17 +470,17 @@
         <ul class="nav nav-tabs  p-4" role="tablist">
           <div class=" rtl:space-x-reverse" aria-label="Tabs" role="tablist" role="tablist">
             <button type="button"
-              class="hs-tab-active:bg-primary w-full mb-2 rounded-[4px] !py-[10px] !px-[16px] text-start hs-tab-active:border-b-transparent text-defaultsize border-0 hs-tab-active:text-white dark:hs-tab-active:bg-primary dark:hs-tab-active:border-b-white/10 dark:hs-tab-active:text-white  bg-light  font-semibold  text-defaulttextcolor dark:text-defaulttextcolor/70  hover:text-gray-700 dark:bg-bodybg2 dark:border-white/10  active"
+              class="hs-tab-active:bg-primary w-full mb-2 rounded-[4px] !py-[10px] !px-[16px] text-start hs-tab-active:border-b-transparent text-defaultsize border-0 hs-tab-active:text-white  bg-light  font-semibold  text-defaulttextcolor  hover:text-gray-700  active"
               id="chat-item" data-hs-tab="#chat" aria-controls="chat" role="tab">
               <i class="fe fe-message-circle text-[.9375rem] me-2 inline-flex"></i>Chat
             </button>
             <button type="button"
-              class="hs-tab-active:bg-primary w-full mb-2  rounded-[4px] !py-[10px] !px-[16px] text-start hs-tab-active:border-b-transparent text-defaultsize border-0 hs-tab-active:text-white dark:hs-tab-active:bg-primary dark:hs-tab-active:border-b-white/10 dark:hs-tab-active:text-white   bg-light font-semibold  text-defaulttextcolor dark:text-defaulttextcolor/70  hover:text-gray-700 dark:bg-bodybg2 dark:border-white/10  dark:hover:text-gray-300"
+              class="hs-tab-active:bg-primary w-full mb-2  rounded-[4px] !py-[10px] !px-[16px] text-start hs-tab-active:border-b-transparent text-defaultsize border-0 hs-tab-active:text-white   bg-light font-semibold  text-defaulttextcolor  hover:text-gray-700 "
               id="notification-item" data-hs-tab="#notification" aria-controls="notification" role="tab">
               <i class="fe fe-bell text-[.9375rem] me-2 inline-flex"></i> Notifications
             </button>
             <button type="button"
-              class="hs-tab-active:bg-primary w-full mb-0 rounded-[4px] !py-[10px] !px-[16px] text-start hs-tab-active:border-b-transparent text-defaultsize border-0 hs-tab-active:text-white dark:hs-tab-active:bg-primary dark:hs-tab-active:border-b-white/10 dark:hs-tab-active:text-white   bg-light font-semibold  text-defaulttextcolor dark:text-defaulttextcolor/70  hover:text-gray-700 dark:bg-bodybg2 dark:border-white/10  dark:hover:text-gray-300"
+              class="hs-tab-active:bg-primary w-full mb-0 rounded-[4px] !py-[10px] !px-[16px] text-start hs-tab-active:border-b-transparent text-defaultsize border-0 hs-tab-active:text-white   bg-light font-semibold  text-defaulttextcolor  hover:text-gray-700 "
               id="friends-item" data-hs-tab="#friends" aria-controls="friends" role="tab">
               <i class="fe fe-users text-[.9375rem] me-2 inline-flex"></i>Friends
             </button>
@@ -488,9 +488,9 @@
         </ul>
         <div class="tab-content !border-0 ">
           <div
-            class="tab-pane !text-defaulttextcolor dark:text-defaulttextcolor/70 !border-s-0 !border-e-0 !rounded-none !p-0 show border-defaultborder dark:border-defaultborder/10 "
+            class="tab-pane !text-defaulttextcolor !border-s-0 !border-e-0 !rounded-none !p-0 show border-defaultborder "
             id="chat" role="tabpanel" aria-labelledby="chat-item">
-            <div class="list flex items-center border-b border-defaultborder dark:border-defaultborder/10  p-3">
+            <div class="list flex items-center border-b border-defaultborder  p-3">
               <div class="">
                 <span class="avatar bg-primary avatar-rounded avatar-md">CH</span>
               </div>
@@ -507,7 +507,7 @@
                 </div>
               </a>
             </div>
-            <div class="list flex items-center border-b border-defaultborder dark:border-defaultborder/10  p-3">
+            <div class="list flex items-center border-b border-defaultborder  p-3">
               <div class="">
                 <span class="avatar bg-danger avatar-rounded avatar-md">N</span>
               </div>
@@ -524,7 +524,7 @@
                 </div>
               </a>
             </div>
-            <div class="list flex items-center border-b border-defaultborder dark:border-defaultborder/10  p-3">
+            <div class="list flex items-center border-b border-defaultborder  p-3">
               <div class="">
                 <span class="avatar bg-info avatar-rounded avatar-md">S</span>
               </div>
@@ -541,7 +541,7 @@
                 </div>
               </a>
             </div>
-            <div class="list flex items-center border-b border-defaultborder dark:border-defaultborder/10  p-3">
+            <div class="list flex items-center border-b border-defaultborder  p-3">
               <div class="">
                 <span class="avatar bg-warning avatar-rounded avatar-md">K</span>
               </div>
@@ -558,7 +558,7 @@
                 </div>
               </a>
             </div>
-            <div class="list flex items-center border-b border-defaultborder dark:border-defaultborder/10  p-3">
+            <div class="list flex items-center border-b border-defaultborder  p-3">
               <div class="">
                 <span class="avatar bg-success avatar-rounded avatar-md">R</span>
               </div>
@@ -575,7 +575,7 @@
                 </div>
               </a>
             </div>
-            <div class="list flex items-center border-b border-defaultborder dark:border-defaultborder/10  p-3">
+            <div class="list flex items-center border-b border-defaultborder  p-3">
               <div class="">
                 <span class="avatar bg-pinkmain avatar-rounded avatar-md">MS</span>
               </div>
@@ -592,7 +592,7 @@
                 </div>
               </a>
             </div>
-            <div class="list flex items-center border-b border-defaultborder dark:border-defaultborder/10  p-3">
+            <div class="list flex items-center border-b border-defaultborder  p-3">
               <div class="">
                 <span class="avatar bg-purplemain avatar-rounded avatar-md">L</span>
               </div>
@@ -609,7 +609,7 @@
                 </div>
               </a>
             </div>
-            <div class="list flex border-b border-defaultborder dark:border-defaultborder/10 items-center p-3">
+            <div class="list flex border-b border-defaultborder items-center p-3">
               <div class="">
                 <span class="avatar bg-indigomain avatar-rounded avatar-md">U</span>
               </div>
@@ -628,7 +628,7 @@
             </div>
           </div>
           <div
-            class="tab-pane !text-defaulttextcolor dark:text-defaulttextcolor/70 !border-s-0 !border-e-0 !rounded-none !p-0 border-defaultborder dark:border-defaultborder/10  hidden"
+            class="tab-pane !text-defaulttextcolor !border-s-0 !border-e-0 !rounded-none !p-0 border-defaultborder  hidden"
             id="notification" role="tabpanel" aria-labelledby="notification-item">
             <div class="ti-list-group ti-list-group-flush ">
               <div class="ti-list-group-item !border-s-0 !border-e-0 !border-t-0 flex  items-center">
@@ -698,7 +698,7 @@
                 </div>
               </div>
               <div
-                class="ti-list-group-item  !border-b border-defaultborder dark:border-defaultborder/10 !border-s-0 !border-e-0 !border-t-0 flex  items-center">
+                class="ti-list-group-item  !border-b border-defaultborder !border-s-0 !border-e-0 !border-t-0 flex  items-center">
                 <span class="avatar avatar-lg avatar-rounded flex-shrink-0">
                   <img src="{{ asset('backend/assets/images/faces/7.jpg') }}" alt="img">
                 </span>
@@ -712,7 +712,7 @@
             </div>
           </div>
           <div
-            class="tab-pane !text-defaulttextcolor dark:text-defaulttextcolor/70 !border-s-0 !border-e-0 !rounded-none !p-0 border-defaultborder dark:border-defaultborder/10  active hidden"
+            class="tab-pane !text-defaulttextcolor !border-s-0 !border-e-0 !rounded-none !p-0 border-defaultborder  active hidden"
             id="friends" role="tabpanel" aria-labelledby="friends-item">
             <div class="ti-list-group ti-list-group-flush ">
               <div class="ti-list-group-item flex !border-t-0 items-center">
@@ -871,7 +871,7 @@
                       class="fab fa-facebook-messenger"></i></a>
                 </div>
               </div>
-              <div class="ti-list-group-item flex !border-b border-defaultborder dark:border-defaultborder/10 items-center">
+              <div class="ti-list-group-item flex !border-b border-defaultborder items-center">
                 <span class="avatar avatar-md online avatar-rounded flex-shrink-0">
                   <img src="{{ asset('backend/assets/images/faces/4.jpg') }}" alt="img">
                 </span>
@@ -924,7 +924,7 @@
             </div>
             <div class="box-body msg_card_body">
               <div class="chat-box-single-line"> <abbr
-                  class="timestamp !text-defaulttextcolor dark:!text-defaulttextcolor/70">February 1st, 2019</abbr> </div>
+                  class="timestamp !text-defaulttextcolor">February 1st, 2019</abbr> </div>
               <div class="flex justify-start">
                 <div class="img_cont_msg"> <img src="{{ asset('backend/assets/images/faces/6.jpg') }}" class="rounded-circle user_img_msg"
                     alt="img"> </div>
@@ -1054,10 +1054,10 @@
               <span class="sr-only">Close</span>
               <i class="bi bi-x"></i>
             </button>
-            <h6 class="text-defaulttextcolor dark:text-defaulttextcolor/70">Valex Voice call</h6>
+            <h6 class="text-defaulttextcolor">Valex Voice call</h6>
             <img src="{{ asset('backend/assets/images/faces/6.jpg') }}" class="rounded-full !h-[90px] mt-6 mb-4 inline-flex" alt="img">
-            <h5 class="mb-1 font-medium text-defaulttextcolor dark:text-defaulttextcolor/70">Daneil Scott</h5>
-            <h6 class="loading animate-loadingtext text-defaulttextcolor dark:text-defaulttextcolor/70">Calling...</h6>
+            <h5 class="mb-1 font-medium text-defaulttextcolor">Daneil Scott</h5>
+            <h6 class="loading animate-loadingtext text-defaulttextcolor">Calling...</h6>
             <div class="mt-[2rem] mb-[2rem]">
               <div class="grid grid-cols-12 gap-x-4">
                 <div class="col-span-4">
@@ -1106,7 +1106,7 @@
     <!-- ========== Search Modal ========== -->
     <div id="search-modal" class="hs-overlay ti-modal hidden mt-[1.75rem]">
       <div class="ti-modal-box">
-        <div class="ti-modal-content !border !border-defaultborder dark:!border-defaultborder/10 !rounded-[0.5rem]">
+        <div class="ti-modal-content !border !border-defaultborder !rounded-[0.5rem]">
           <div class="ti-modal-body">
 
             <div class="input-group border-[2px] border-primary rounded-[0.25rem] w-full flex">
@@ -1127,34 +1127,34 @@
 
                 <ul class="absolute hs-dropdown-menu ti-dropdown-menu !-mt-2 !p-0 hidden">
                   <li><a
-                      class="ti-dropdown-item flex text-defaulttextcolor dark:text-defaulttextcolor/70 !py-[0.5rem] !px-[0.9375rem] !text-[0.8125rem] font-[500]"
+                      class="ti-dropdown-item flex text-defaulttextcolor !py-[0.5rem] !px-[0.9375rem] !text-[0.8125rem] font-[500]"
                       href="#">Action</a></li>
                   <li><a
-                      class="ti-dropdown-item flex text-defaulttextcolor dark:text-defaulttextcolor/70 !py-[0.5rem] !px-[0.9375rem] !text-[0.8125rem] font-[500]"
+                      class="ti-dropdown-item flex text-defaulttextcolor !py-[0.5rem] !px-[0.9375rem] !text-[0.8125rem] font-[500]"
                       href="#">Another action</a></li>
                   <li><a
-                      class="ti-dropdown-item flex text-defaulttextcolor dark:text-defaulttextcolor/70 !py-[0.5rem] !px-[0.9375rem] !text-[0.8125rem] font-[500]"
+                      class="ti-dropdown-item flex text-defaulttextcolor !py-[0.5rem] !px-[0.9375rem] !text-[0.8125rem] font-[500]"
                       href="#">Something else here</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
                   <li><a
-                      class="ti-dropdown-item flex text-defaulttextcolor dark:text-defaulttextcolor/70 !py-[0.5rem] !px-[0.9375rem] !text-[0.8125rem] font-[500]"
+                      class="ti-dropdown-item flex text-defaulttextcolor !py-[0.5rem] !px-[0.9375rem] !text-[0.8125rem] font-[500]"
                       href="#">Separated link</a></li>
                 </ul>
               </div>
             </div>
             <div class="mt-5">
-              <p class="font-normal  text-[#8c9097] text-[0.813rem] dark:text-gray-200 mb-2">Are You Looking For...</p>
+              <p class="font-normal  text-[#8c9097] text-[0.813rem] mb-2">Are You Looking For...</p>
 
-              <span class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem] dark:border-defaultborder/10"><i class="fe fe-user me-2"></i>People<a
+              <span class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem]"><i class="fe fe-user me-2"></i>People<a
                   href="javascript:void(0)" class="tag-addon header-remove-btn"><span class="sr-only">Remove badge</span><i class="fe fe-x"></i></a></span>
-              <span class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem] dark:border-defaultborder/10"><i class="fe fe-file-text me-2"></i>Pages<a
+              <span class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem]"><i class="fe fe-file-text me-2"></i>Pages<a
                   href="javascript:void(0)" class="tag-addon header-remove-btn"><span class="sr-only">Remove badge</span><i class="fe fe-x"></i></a></span>
-              <span class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem] dark:border-defaultborder/10"><i
+              <span class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem]"><i
                   class="fe fe-align-left me-2"></i>Articles<a href="javascript:void(0)" class="tag-addon header-remove-btn"><span class="sr-only">Remove badge</span><i
                     class="fe fe-x"></i></a></span>
-              <span class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem] dark:border-defaultborder/10"><i class="fe fe-server me-2"></i>Tags<a
+              <span class="search-tags text-[0.75rem] !py-[0rem] !px-[0.55rem]"><i class="fe fe-server me-2"></i>Tags<a
                   href="javascript:void(0)" class="tag-addon header-remove-btn"><span class="sr-only">Remove badge</span><i class="fe fe-x"></i></a></span>
 
             </div>
@@ -1164,21 +1164,21 @@
               <p class="font-normal  text-[#8c9097] text-[0.813rem] mb-2">Recent Search :</p>
 
               <div id="dismiss-alert" role="alert"
-                class="!p-2 border dark:border-defaultborder/10 rounded-[0.3125rem] flex items-center text-defaulttextcolor dark:text-defaulttextcolor/70 !mb-2 !text-[0.8125rem] alert">
+                class="!p-2 border rounded-[0.3125rem] flex items-center text-defaulttextcolor !mb-2 !text-[0.8125rem] alert">
                 <a href="notifications.html"><span>Notifications</span></a>
                 <a class="ms-auto leading-none" href="javascript:void(0);" data-hs-remove-element="#dismiss-alert"><i
                     class="fe fe-x !text-[0.8125rem] text-[#8c9097]"></i></a>
               </div>
 
               <div id="dismiss-alert" role="alert"
-                class="!p-2 border dark:border-defaultborder/10 rounded-[0.3125rem] flex items-center text-defaulttextcolor dark:text-defaulttextcolor/70 !mb-2 !text-[0.8125rem] alert">
+                class="!p-2 border rounded-[0.3125rem] flex items-center text-defaulttextcolor !mb-2 !text-[0.8125rem] alert">
                 <a href="alerts.html"><span>Alerts</span></a>
                 <a class="ms-auto leading-none" href="javascript:void(0);" data-hs-remove-element="#dismiss-alert"><i
                     class="fe fe-x !text-[0.8125rem] text-[#8c9097]"></i></a>
               </div>
 
               <div id="dismiss-alert" role="alert"
-                class="!p-2 border dark:border-defaultborder/10 rounded-[0.3125rem] flex items-center text-defaulttextcolor dark:text-defaulttextcolor/70 !mb-0 !text-[0.8125rem] alert">
+                class="!p-2 border rounded-[0.3125rem] flex items-center text-defaulttextcolor !mb-0 !text-[0.8125rem] alert">
                 <a href="mail.html"><span>Mail</span></a>
                 <a class="ms-auto lh-1" href="javascript:void(0);" data-hs-remove-element="#dismiss-alert"><i
                     class="fe fe-x !text-[0.8125rem] text-[#8c9097]"></i></a>
@@ -1189,11 +1189,11 @@
           <div class="ti-modal-footer !py-[1rem] !px-[1.25rem]">
             <div class="inline-flex rounded-md  shadow-sm">
               <button type="button"
-                class="ti-btn-group !px-[0.75rem] !py-[0.45rem]  rounded-s-[0.25rem] !rounded-tr-none !rounded-br-none ti-btn-primary !text-[0.75rem] dark:border-white/10">
+                class="ti-btn-group !px-[0.75rem] !py-[0.45rem]  rounded-s-[0.25rem] !rounded-tr-none !rounded-br-none ti-btn-primary !text-[0.75rem]">
                 Search
               </button>
               <button type="button"
-                class="ti-btn-group  ti-btn-primary-full rounded-e-[0.25rem] dark:border-white/10 !text-[0.75rem] !rounded-tl-none !rounded-bl-none !px-[0.75rem] !py-[0.45rem]">
+                class="ti-btn-group  ti-btn-primary-full rounded-e-[0.25rem] !text-[0.75rem] !rounded-tl-none !rounded-bl-none !px-[0.75rem] !py-[0.45rem]">
                 Clear Recents
               </button>
             </div>

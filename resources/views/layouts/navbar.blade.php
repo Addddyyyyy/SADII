@@ -84,7 +84,7 @@
 
                 <div class="hs-dropdown-menu ti-dropdown-menu min-w-[10rem] hidden !left-[-7rem] !-mt-2"
                     aria-labelledby="dropdown-flag">
-                    <div class="ti-dropdown-divider divide-y divide-gray-200 dark:divide-white/10">
+                    <div class="ti-dropdown-divider divide-y divide-gray-200">
                         <div class="py-2 first:pt-0 last:pb-0">
                             <div class="ti-dropdown-item !p-[0.65rem] ">
                                 <div class="flex items-center space-x-2 rtl:space-x-reverse w-full">
@@ -160,7 +160,7 @@
             <!-- light and dark theme -->
             <div class="header-element header-theme-mode hidden !items-center sm:block !py-[1rem] !px-[0.65rem]">
                 <a aria-label="anchor"
-                    class="hs-dark-mode-active:hidden flex hs-dark-mode group flex-shrink-0 justify-center items-center gap-2  rounded-full font-medium transition-all text-xs dark:bg-bodybg dark:hover:bg-black/20 dark:text-white/70 dark:hover:text-white dark:focus:ring-white/10 dark:focus:ring-offset-white/10"
+                    class="hs-dark-mode-active:hidden flex hs-dark-mode group flex-shrink-0 justify-center items-center gap-2  rounded-full font-medium transition-all text-xs"
                     href="javascript:;" data-hs-theme-click-value="dark">
                     <svg xmlns="http://www.w3.org/2000/svg" class="header-link-icon" height="24"
                         viewBox="0 -960 960 960" width="24">
@@ -169,7 +169,7 @@
                     </svg>
                 </a>
                 <a aria-label="anchor"
-                    class="hs-dark-mode-active:flex hidden hs-dark-mode group flex-shrink-0 justify-center items-center gap-2  rounded-full font-medium text-defaulttextcolor  transition-all text-xs dark:bg-bodybg  dark:hover:bg-black/20 dark:text-white/70 dark:hover:text-white dark:focus:ring-white/10 dark:focus:ring-offset-white/10"
+                    class="hs-dark-mode-active:flex hidden hs-dark-mode group flex-shrink-0 justify-center items-center gap-2  rounded-full font-medium text-defaulttextcolor  transition-all text-xs "
                     href="javascript:;" data-hs-theme-click-value="light">
                     <svg xmlns="http://www.w3.org/2000/svg" class="header-link-icon" fill="currentColor"
                         height="24" viewBox="0 -960 960 960" width="24">
@@ -208,7 +208,7 @@
                             have 6
                             unread messages</p>
                     </div>
-                    <div class="dropdown-divider dark:border-white/10"></div>
+                    <div class="dropdown-divider"></div>
                     <ul class="list-none mb-0" id="header-cart-items-scroll">
                         <li class="dropdown-item">
                             <div class="flex messages">
@@ -463,7 +463,7 @@
             <div class="header-element header-fullscreen py-[1rem] md:px-[0.65rem] px-2">
                 <!-- Start::header-link -->
                 <a aria-label="anchor" onclick="openFullscreen();" href="javascript:void(0);"
-                    class="inline-flex flex-shrink-0 justify-center items-center gap-2  !rounded-full font-medium dark:hover:bg-black/20 dark:text-textmuted dark:hover:text-white dark:focus:ring-white/10 dark:focus:ring-offset-white/10">
+                    class="inline-flex flex-shrink-0 justify-center items-center gap-2  !rounded-full font-medium">
                     <i class="bx bx-fullscreen full-screen-open header-link-icon"></i>
                     <i class="bx bx-exit-fullscreen full-screen-close header-link-icon hidden"></i>
                 </a>
@@ -534,7 +534,7 @@
             <!-- Switcher Icon -->
             <div class="header-element px-[0.48rem]">
                 <button aria-label="button" type="button"
-                    class="hs-dropdown-toggle switcher-icon inline-flex flex-shrink-0 justify-center items-center gap-2  rounded-full font-medium  align-middle transition-all text-xs dark:text-white/70 dark:hover:text-white dark:focus:ring-white/10 dark:focus:ring-offset-white/10"
+                    class="hs-dropdown-toggle switcher-icon inline-flex flex-shrink-0 justify-center items-center gap-2  rounded-full font-medium  align-middle transition-all text-xs"
                     data-hs-overlay="#hs-overlay-switcher">
                     <svg xmlns="http://www.w3.org/2000/svg" class="header-link-icon animate-spin-slow" width="24"
                         height="24" viewBox="0 0 24 24">

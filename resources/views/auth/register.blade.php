@@ -1,4 +1,13 @@
 <x-guest-layout>
+    {{-- Logo at the top (from storage/images/navbarlogo) --}}
+    <div class="flex justify-center mb-6">
+        <img
+            src="{{ asset('storage/images/navbarlogo.png') }}"
+            alt="Navbar Logo"
+            class="h-32 w-auto"
+        >
+    </div>
+
     <form method="POST" action="{{ route('register') }}">
         @csrf
 
@@ -39,14 +48,35 @@
             <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
         </div>
 
-        <div class="flex items-center justify-end mt-4">
+        <!-- Existing bottom actions -->
+        <div class="flex items-center justify-between mt-4">
             <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('login') }}">
                 {{ __('Already registered?') }}
             </a>
 
-            <x-primary-button class="ms-4">
+            <!-- <x-primary-button class="ms-4">
                 {{ __('Register') }}
-            </x-primary-button>
+            </x-primary-button> -->
+        </div>
+
+        <!-- Temporary role selection UI (non-functional) -->
+        <div class="mt-6 border-t pt-4">
+            <p class="text-sm text-gray-700 mb-3">Register as:</p>
+            <div class="flex flex-col sm:flex-row gap-3">
+                <button
+                    type="button"
+                    class="w-full inline-flex justify-center items-center px-4 py-2 border border-indigo-500 text-indigo-600 text-sm font-semibold rounded-md hover:bg-indigo-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                >
+                    Register as Tenant
+                </button>
+
+                <button
+                    type="button"
+                    class="w-full inline-flex justify-center items-center px-4 py-2 border border-emerald-500 text-emerald-600 text-sm font-semibold rounded-md hover:bg-emerald-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500"
+                >
+                    Register as Landlord
+                </button>
+            </div>
         </div>
     </form>
 </x-guest-layout>

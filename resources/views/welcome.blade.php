@@ -256,7 +256,7 @@
         <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
             <!-- Start::Home Content -->
             <div class="landing-banner" id="home"
-                 style="background-image: url('{{ asset('storage/images/bglandingpage.jpg') }}'); background-size: cover; background-position: center;">
+              style="background-image: url('/storage/images/bglandingpage.jpg'); background-size: cover; background-position: center;">
                 <section class="section !pt-[6rem]">
                     <div class="container main-banner-container !pt-3 sm:!pt-[6rem]">
                         <div class="grid grid-cols-12 gap-x-6">

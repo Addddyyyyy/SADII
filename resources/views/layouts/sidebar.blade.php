@@ -35,7 +35,7 @@
                                 <a href="javascript:void(0);">Dashboard</a>
                             </li>
                             <li class="slide">
-                                <a href="{{ route('dashboard') }}" class="side-menu__item">Sales</a>
+                                <a href="{{ route('dashboard') }}" class="side-menu__item">Tenant</a>
                             </li>
                         </ul>
                     </li>

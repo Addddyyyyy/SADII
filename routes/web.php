@@ -18,6 +18,10 @@ Route::middleware('auth')->group(function () {
     Route::resource('users', \App\Http\Controllers\UserController::class);
 });
 
+// chat & myreservation route
+    Route::view('/chat', 'chat.index')->name('chat.index');
+    Route::view('/myreservation', 'myreservation.index')->name('myreservation.index');
+    Route::view('/reservation', 'reservation.index')->name('reservation.index');
 
 
 require __DIR__.'/auth.php';

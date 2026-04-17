@@ -35,7 +35,7 @@
                                 <a href="javascript:void(0);">Dashboard</a>
                             </li>
                             <li class="slide">
-                                <a href="{{ route('dashboard') }}" class="side-menu__item">Sales</a>
+                                <a href="{{ route('dashboard') }}" class="side-menu__item">Tenant</a>
                             </li>
                         </ul>
                     </li>
@@ -57,6 +57,10 @@
                             <span class="side-menu__label">User Management</span>
                         </a>
                     </li>
+                    <li class="slide">
+                        <a href="{{ route('browse_boarding_house.index') }}" class="side-menu__item">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="side-menu__icon" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+                            <span class="side-menu__label">Browse Boarding Houses</span>
                      <li class="slide">
                         <a href="{{ route('chat.index') }}" class="side-menu__item">
                             <svg class="side-menu__icon" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg>

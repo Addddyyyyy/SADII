@@ -19,9 +19,16 @@ Route::middleware('auth')->group(function () {
         return view('browse_boarding_house.index');
     })->name('browse_boarding_house.index');
     Route::resource('users', \App\Http\Controllers\UserController::class);
+
+    // chat route
+    Route::view('/chat', 'chat.index')->name('chat.index');
+
+    // reservation routes (role-protected)
+    Route::view('/myreservation', 'myreservation.index')->name('myreservation.index')
+        ->middleware('role:tenant');
+    Route::view('/reservation', 'reservation.index')->name('reservation.index')
+        ->middleware('role:landlord');
 });
-
-
 
 
 require __DIR__.'/auth.php';

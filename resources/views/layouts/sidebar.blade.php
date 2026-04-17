@@ -63,6 +63,7 @@
                             <span class="side-menu__label">Messages</span>
                         </a>
                     </li>
+                    @if(Auth::user()->role === 'landlord')
                     <li class="slide">
                             <a href="{{ route('reservation.index') }}" class="side-menu__item">
                                 
@@ -70,6 +71,8 @@
                                 <span class="side-menu__label">Reservation</span>
                             </a>
                         </li>
+                    @endif
+                    @if(Auth::user()->role === 'tenant')
                         <li class="slide">
                             <a href="{{ route('myreservation.index') }}" class="side-menu__item">
                                 
@@ -77,6 +80,7 @@
                                 <span class="side-menu__label">My Reservation</span>
                             </a>
                         </li>
+                    @endif
                     <!-- End::slide --> 
 
                 </ul>

@@ -16,12 +16,15 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::resource('users', \App\Http\Controllers\UserController::class);
-});
 
-// chat & myreservation route
+    // chat route
     Route::view('/chat', 'chat.index')->name('chat.index');
-    Route::view('/myreservation', 'myreservation.index')->name('myreservation.index');
-    Route::view('/reservation', 'reservation.index')->name('reservation.index');
 
+    // reservation routes (role-protected)
+    Route::view('/myreservation', 'myreservation.index')->name('myreservation.index')
+        ->middleware('role:tenant');
+    Route::view('/reservation', 'reservation.index')->name('reservation.index')
+        ->middleware('role:landlord');
+});
 
 require __DIR__.'/auth.php';

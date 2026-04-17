@@ -50,4 +50,15 @@ class RegisteredUserController extends Controller
 
         return redirect(route('dashboard', absolute: false));
     }
+
+        /**
+     * Show the custom registration page with role (tenant / landlord).
+     */
+    public function createWithRole()
+    {
+        // This matches: resources/views/auth/register-role.blade.php
+        return view('auth.register-role');
+    }
+
+    
 }

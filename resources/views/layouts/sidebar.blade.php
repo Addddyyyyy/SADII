@@ -57,8 +57,30 @@
                             <span class="side-menu__label">User Management</span>
                         </a>
                     </li>
-
+                     <li class="slide">
+                        <a href="{{ route('chat.index') }}" class="side-menu__item">
+                            <svg class="side-menu__icon" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg>
+                            <span class="side-menu__label">Messages</span>
+                        </a>
                     </li>
+                    @if(Auth::user()->role === 'landlord')
+                    <li class="slide">
+                            <a href="{{ route('reservation.index') }}" class="side-menu__item">
+                                
+                                <svg class="side-menu__icon" viewBox="0 0 24 24"><path d="M21.5 5.134a1 1 0 0 1 .493 .748l.007 .118v13a1 1 0 0 1 -1.5 .866a8 8 0 0 0 -7.5 -.266v-15.174a10 10 0 0 1 8.5 .708m-10.5 -.707l.001 15.174a8 8 0 0 0 -7.234 .117l-.327 .18l-.103 .044l-.049 .016l-.11 .026l-.061 .01l-.117 .006h-.042l-.11 -.012l-.077 -.014l-.108 -.032l-.126 -.056l-.095 -.056l-.089 -.067l-.06 -.056l-.073 -.082l-.064 -.089l-.022 -.036l-.032 -.06l-.044 -.103l-.016 -.049l-.026 -.11l-.01 -.061l-.004 -.049l-.002 -13.068a1 1 0 0 1 .5 -.866a10 10 0 0 1 8.5 -.707" /></svg>
+                                <span class="side-menu__label">Reservation</span>
+                            </a>
+                        </li>
+                    @endif
+                    @if(Auth::user()->role === 'tenant')
+                        <li class="slide">
+                            <a href="{{ route('myreservation.index') }}" class="side-menu__item">
+                                
+                                <svg class="side-menu__icon" viewBox="0 0 24 24"><path d="M12 6a4 4 0 0 1 4 4v11a1 1 0 0 1 -1.514 .857l-4.486 -2.691l-4.486 2.691a1 1 0 0 1 -1.508 -.743l-.006 -.114v-11a4 4 0 0 1 4 -4h4z" /><path d="M16 2a4 4 0 0 1 4 4v11a1 1 0 0 1 -2 0v-11a2 2 0 0 0 -2 -2h-5a1 1 0 0 1 0 -2h5z" /></svg>
+                                <span class="side-menu__label">My Reservation</span>
+                            </a>
+                        </li>
+                    @endif
                     <!-- End::slide --> 
 
                 </ul>

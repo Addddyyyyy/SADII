@@ -191,7 +191,7 @@
                 <!-- Start::main-sidebar -->
                 <div class="main-sidebar">
                     <!-- Start::nav -->
-                    <nav class="main-menu-container nav nav-pills flex-column sub-open">
+                    <nav class="main-menu-container nav nav-pills flex items-center justify-between sub-open ">
                         <div class="landing-logo-container my-auto hidden lg:block">
                             <div class="responsive-logo">
                                 <a class="responsive-logo-light" href="{{ url('/') }}" aria-label="Brand">
@@ -311,7 +311,16 @@
                         <div class="xl:col-span-3 lg:col-span-6 md:col-span-6 col-span-12 mb-8">
                             <div class="card bg-white dark:bg-bodybg p-6 rounded-lg shadow-sm">
 
-                                <a href="#" class="text-primary font-semibold block mb-4">Feature Link</a>
+                         <a href="#" class="text-primary font-semibold block mb-4 flex justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" 
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-zoom">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                                <path d="M21 21l-6 -6" />
+                            </svg>
+                        </a>
 
                                 <h5 class="font-bold mb-3">Easy BH Search</h5>
                                 <p class="text-sm text-gray-600 leading-relaxed">
@@ -323,7 +332,14 @@
                         <div class="xl:col-span-3 lg:col-span-6 md:col-span-6 col-span-12 mb-8">
                             <div class="card bg-white dark:bg-bodybg p-6 rounded-lg shadow-sm">
 
-                                <a href="#" class="text-primary font-semibold block mb-4">Feature Link</a>
+                                <a href="#" class="text-primary font-semibold block mb-4"><div class="flex justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-link">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path d="M9 15l6 -6" />
+                                            <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
+                                            <path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
+                                        </svg>
+                                </div></a>
 
                                 <h5 class="font-bold mb-3">Direct Connection</h5>
                                 <p class="text-sm text-gray-600 leading-relaxed">
@@ -335,7 +351,18 @@
                         <div class="xl:col-span-3 lg:col-span-6 md:col-span-6 col-span-12 mb-8">
                             <div class="card bg-white dark:bg-bodybg p-6 rounded-lg shadow-sm">
 
-                                <a href="#" class="text-primary font-semibold block mb-4">Feature Link</a>
+                                <a href="#" class="text-primary font-semibold block mb-4 flex justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-baseline-density-small">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M4 3h16" />
+                                        <path d="M4 9h16" />
+                                        <path d="M4 15h16" />
+                                        <path d="M4 21h16" />
+                                    </svg>
+                                </a>
 
                                 <h5 class="font-bold mb-3">Detailed Listings</h5>
                                 <p class="text-sm text-gray-600 leading-relaxed">
@@ -347,7 +374,18 @@
                         <div class="xl:col-span-3 lg:col-span-6 md:col-span-6 col-span-12 mb-8">
                             <div class="card bg-white dark:bg-bodybg p-6 rounded-lg shadow-sm">
 
-                                <a href="#" class="text-primary font-semibold block mb-4">Feature Link</a>
+                                <a href="#" class="text-primary font-semibold block mb-4 flex justify-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="icon icon-tabler icons-tabler-outline icon-tabler-mood-smile-beam">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18" />
+                                        <path d="M10 10c-.5 -1 -2.5 -1 -3 0" />
+                                        <path d="M17 10c-.5 -1 -2.5 -1 -3 0" />
+                                        <path d="M14.5 15a3.5 3.5 0 0 1 -5 0" />
+                                    </svg>
+                                </a>
 
                                 <h5 class="font-bold mb-3">User-Friendly Interface</h5>
                                 <p class="text-sm text-gray-600 leading-relaxed">
@@ -370,62 +408,65 @@
                 </div>
             </section>
             <!-- End:: Section-5 -->
-
-            <!-- Start:: Section-3 -->
-                <section id="contact" class="py-20 bg-white mt-20 mb-32">
+             
+                        <!-- Start:: Section-2 -->
+                ```<section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 section-bg py-20" id="features">
                     <div class="container mx-auto px-4">
-                        <div class="text-center mb-12">
-                            <h2 class="text-3xl font-semibold text-gray-900">Contact Us</h2>
-                            <p class="text-gray-600 text-sm mt-4 mb-6">
-                                Feel free to reach out to us using the details below.
-                            </p>
+
+                        <!-- WHITE BOX -->
+                        <div class="bg-white rounded-xl shadow-md p-10">
+
+                            <div class="text-center mb-12">
+                                <h2 class="text-3xl font-semibold text-gray-900">Contact Us</h2>
+                                <p class="text-gray-600 text-sm mt-4 mb-6">
+                                    Feel free to reach out to us using the details below.
+                                </p>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-y-16 gap-x-12 text-center">
+
+                                <!-- Contact Item 1 -->
+                                <div class="flex flex-col items-center gap-4">
+                                    <div class="bg-primary/10 rounded-full flex items-center justify-center w-16 h-16">
+                                        <i class="ri-map-pin-line text-2xl text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-semibold text-base text-gray-900 mb-2">Address</h3>
+                                        <p class="text-sm text-gray-600">USM, Kabacan, Philippines</p>
+                                    </div>
+                                </div>
+
+                                <!-- Contact Item 2 -->
+                                <div class="flex flex-col items-center gap-4">
+                                    <div class="bg-primary/10 rounded-full flex items-center justify-center w-16 h-16">
+                                        <i class="ri-phone-line text-2xl text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-semibold text-base text-gray-900 mb-2">Phone</h3>
+                                        <p class="text-sm text-gray-600">+63 969 017 7180</p>
+                                    </div>
+                                </div>
+
+                                <!-- Contact Item 3 -->
+                                <div class="flex flex-col items-center gap-4">
+                                    <div class="bg-primary/10 rounded-full flex items-center justify-center w-16 h-16">
+                                        <i class="ri-mail-line text-2xl text-primary"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-semibold text-base text-gray-900 mb-2">Email</h3>
+                                        <p class="text-sm text-gray-600">7.nairda@gmail.com</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
                         </div>
+                        <!-- END WHITE BOX -->
 
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-y-16 gap-x-12 text-center">
-                            <!-- Contact Item 1 -->
-                            <div class="flex flex-col items-center gap-4">
-                                <div class="contact-icon bg-primary/10 rounded-full flex items-center justify-center w-16 h-16 mb-2">
-                                    <i class="ri-map-pin-line text-2xl text-primary"></i>
-                                </div>
-                                <div class="mt-2">
-                                    <h3 class="font-semibold text-base text-gray-900 mb-2">Address</h3>
-                                    <p class="text-sm text-gray-600">
-                                        USM, Kabacan, Philippines
-                                    </p>
-                                </div>
-                            </div>
-
-                            <!-- Contact Item 2 -->
-                            <div class="flex flex-col items-center gap-4">
-                                <div class="contact-icon bg-primary/10 rounded-full flex items-center justify-center w-16 h-16 mb-2">
-                                    <i class="ri-phone-line text-2xl text-primary"></i>
-                                </div>
-                                <div class="mt-2">
-                                    <h3 class="font-semibold text-base text-gray-900 mb-2">Phone</h3>
-                                    <p class="text-sm text-gray-600">
-                                        +63 969 017 7180
-                                    </p>
-                                </div>
-                            </div>
-
-                            <!-- Contact Item 3 -->
-                            <div class="flex flex-col items-center gap-4">
-                                <div class="contact-icon bg-primary/10 rounded-full flex items-center justify-center w-16 h-16 mb-2">
-                                    <i class="ri-mail-line text-2xl text-primary"></i>
-                                </div>
-                                <div class="mt-2">
-                                    <h3 class="font-semibold text-base text-gray-900 mb-2">Email</h3>
-                                    <p class="text-sm text-gray-600">
-                                        7.nairda@gmail.com
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </section>
-            </section>
-            <!-- End:: Section-3 -->
-             
+            <!-- end section -->
+
             <div class="text-center landing-main-footer py-4 opacity-[0.87]">
                 <span class="text-[#8c9097] text-[0.9375rem]"> Copyright © <span id="year"></span> <a
                         href="javascript:void(0);" class="!text-primary font-semibold"><u>valex</u></a>.

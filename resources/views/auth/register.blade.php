@@ -25,6 +25,17 @@
             <x-input-error :messages="$errors->get('email')" class="mt-2" />
         </div>
 
+        <!-- Role -->
+        <div class="mt-4">
+            <x-input-label for="role" :value="__('Register As')" />
+            <select id="role" name="role" class="block mt-1 w-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm" required>
+                <option value="" disabled {{ old('role') ? '' : 'selected' }}>Select your role</option>
+                <option value="tenant" {{ old('role') === 'tenant' ? 'selected' : '' }}>Tenant</option>
+                <option value="landlord" {{ old('role') === 'landlord' ? 'selected' : '' }}>Landlord</option>
+            </select>
+            <x-input-error :messages="$errors->get('role')" class="mt-2" />
+        </div>
+
         <!-- Password -->
         <div class="mt-4">
             <x-input-label for="password" :value="__('Password')" />
@@ -54,29 +65,9 @@
                 {{ __('Already registered?') }}
             </a>
 
-            <!-- <x-primary-button class="ms-4">
+            <x-primary-button class="ms-4">
                 {{ __('Register') }}
-            </x-primary-button> -->
-        </div>
-
-        <!-- Temporary role selection UI (non-functional) -->
-        <div class="mt-6 border-t pt-4">
-            <p class="text-sm text-gray-700 mb-3">Register as:</p>
-            <div class="flex flex-col sm:flex-row gap-3">
-                <button
-                    type="button"
-                    class="w-full inline-flex justify-center items-center px-4 py-2 border border-indigo-500 text-indigo-600 text-sm font-semibold rounded-md hover:bg-indigo-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                >
-                    Register as Tenant
-                </button>
-
-                <button
-                    type="button"
-                    class="w-full inline-flex justify-center items-center px-4 py-2 border border-emerald-500 text-emerald-600 text-sm font-semibold rounded-md hover:bg-emerald-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500"
-                >
-                    Register as Landlord
-                </button>
-            </div>
+            </x-primary-button>
         </div>
     </form>
 </x-guest-layout>

@@ -24,8 +24,15 @@
 
     <!-- Color Picker Css -->
     <link rel="stylesheet" href="{{ asset('backend/assets/libs/@simonwep/pickr/themes/nano.min.css') }}">
+
   <!-- Jsvector Maps -->
   <link rel="stylesheet" href="{{ asset('backend/assets/libs/jsvectormap/css/jsvectormap.min.css') }}">
+    <!-- Choices Css -->
+<link rel="stylesheet" href="../assets/libs/choices.js/public/assets/styles/choices.min.css">
+
+ <link rel="stylesheet" href="../assets/libs/swiper/swiper-bundle.min.css">
+  <!-- Swiper Css -->
+  <link rel="stylesheet" href="{{ asset('backend/assets/libs/swiper/swiper-bundle.min.css') }}">
 
 </head>
 
@@ -1205,7 +1212,7 @@
 
     
     <!-- Footer Start -->
-    @include('layouts.footer')
+    <!--@include('layouts.footer')-->
     <!-- Footer End -->
 
   </div>
@@ -1259,6 +1266,48 @@
 
   <!-- Custom JS -->
   <script src="{{ asset('backend/assets/js/custom.js') }}"></script>
+
+  <!-- Swiper JS -->
+  <script src="{{ asset('backend/assets/libs/swiper/swiper-bundle.min.js') }}"></script>
+
+  
+<!-- popperjs -->
+    <script src="../assets/libs/@popperjs/core/umd/popper.min.js"></script>
+
+    <!-- Color Picker JS -->
+    <script src="../assets/libs/@simonwep/pickr/pickr.es5.min.js"></script>
+
+    <!-- sidebar JS -->
+    <script src="../assets/js/defaultmenu.js"></script>
+
+    <!-- Switch JS -->
+    <script src="../assets/js/switch.js"></script>
+
+    <!-- sticky JS -->
+    <script src="../assets/js/sticky.js"></script>
+
+
+    <!-- Simplebar JS -->
+    <script src="../assets/libs/simplebar/simplebar.min.js"></script>
+
+    <!-- Preline JS -->
+    <script src="../assets/libs/preline/preline.js"></script>
+
+    
+    <!-- Custom-Switcher JS -->
+    <script src="../assets/js/custom-switcher.js"></script>
+
+     <!-- Choices JS -->
+  <script src="../assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="../assets/libs/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Internal Product-Details JS -->
+    <script src="../assets/js/product-details.js"></script>
+
+    <!-- Custom JS -->
+    <script src="../assets/js/custom.js"></script>
 
 </body>
 

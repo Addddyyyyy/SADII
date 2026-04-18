@@ -1,4 +1,13 @@
 <x-guest-layout>
+    {{-- Logo at the top (from storage/images/navbarlogo) --}}
+    <div class="flex justify-center mb-6">
+        <img
+            src="{{ asset('storage/images/navbarlogo.png') }}"
+            alt="Navbar Logo"
+            class="h-32 w-auto"
+        >
+    </div>
+
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 

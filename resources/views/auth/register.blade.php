@@ -1,4 +1,13 @@
 <x-guest-layout>
+    {{-- Logo at the top (from storage/images/navbarlogo) --}}
+    <div class="flex justify-center mb-6">
+        <img
+            src="{{ asset('storage/images/navbarlogo.png') }}"
+            alt="Navbar Logo"
+            class="h-32 w-auto"
+        >
+    </div>
+
     <form method="POST" action="{{ route('register') }}">
         @csrf
 
@@ -14,6 +23,17 @@
             <x-input-label for="email" :value="__('Email')" />
             <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="username" />
             <x-input-error :messages="$errors->get('email')" class="mt-2" />
+        </div>
+
+        <!-- Role -->
+        <div class="mt-4">
+            <x-input-label for="role" :value="__('Register As')" />
+            <select id="role" name="role" class="block mt-1 w-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm" required>
+                <option value="" disabled {{ old('role') ? '' : 'selected' }}>Select your role</option>
+                <option value="tenant" {{ old('role') === 'tenant' ? 'selected' : '' }}>Tenant</option>
+                <option value="landlord" {{ old('role') === 'landlord' ? 'selected' : '' }}>Landlord</option>
+            </select>
+            <x-input-error :messages="$errors->get('role')" class="mt-2" />
         </div>
 
         <!-- Password -->
@@ -39,7 +59,8 @@
             <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
         </div>
 
-        <div class="flex items-center justify-end mt-4">
+        <!-- Existing bottom actions -->
+        <div class="flex items-center justify-between mt-4">
             <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('login') }}">
                 {{ __('Already registered?') }}
             </a>

@@ -17,19 +17,20 @@ Route::get('/dashboard', function () {
 Route::get('/product-details', function () {
     return view('product_details.index');
 })->middleware(['auth'])->name('product.details');
+ Route::get('/browse-boarding-house', function () {
+        return view('browse_boarding_house.index');
+    })->name('browse_boarding_house.index');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-    Route::get('/browse-boarding-house', function () {
-        return view('browse_boarding_house.index');
-    })->name('browse_boarding_house.index');
     Route::resource('users', \App\Http\Controllers\UserController::class);
 
     // chat route
     Route::view('/chat', 'chat.index')->name('chat.index');
-    Route::view('/landlord-dashboard', 'landlord.landlord_dashboard')->name('landlord.landlord_dashboard');
+    Route::view('/landlord_dashboard', 'landlord_dashboard.index')->name('landlord_dashboard.index');
+    Route::view('/tenant_dashboard', 'tenant_dashboard.index')->name('tenant_dashboard.index');
 
     // reservation routes (role-protected)
     Route::view('/myreservation', 'myreservation.index')->name('myreservation.index')

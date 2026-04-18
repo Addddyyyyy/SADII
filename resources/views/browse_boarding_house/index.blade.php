@@ -214,7 +214,7 @@
                                     <div class="box product-card">
                                         <div class="box-body">
                                             <a href="product-details.html" class="product-image">
-                                                <img src="storage/images/ponyo.jpg" class="card-img mb-3 rounded-md"
+                                                <img src="{{ asset('backend/assets/images/ecommerce/bh1.jpg') }}" class="card-img mb-3 rounded-md"
                                                     alt="...">
                                             </a>
                                             <div class="product-icons">
@@ -249,7 +249,7 @@
                                     <div class="box product-card">
                                         <div class="box-body">
                                             <a href="product-details.html" class="product-image">
-                                                <img src="storage/images/ponyo.jpg" class="card-img mb-3 rounded-md"
+                                                <img src="{{ asset('backend/assets/images/ecommerce/bh2.jpg') }}" class="card-img mb-3 rounded-md"
                                                     alt="...">
                                             </a>
                                             <div class="product-icons">
@@ -284,7 +284,7 @@
                                     <div class="box product-card">
                                         <div class="box-body">
                                             <a href="product-details.html" class="product-image">
-                                                <img src="storage/images/ponyo.jpg" class="card-img mb-3 rounded-md"
+                                                <img src="{{ asset('backend/assets/images/ecommerce/bh3.jpg') }}" class="card-img mb-3 rounded-md"
                                                     alt="...">
                                             </a>
                                             <div class="product-icons">
@@ -319,7 +319,7 @@
                                     <div class="box product-card">
                                         <div class="box-body">
                                             <a href="product-details.html" class="product-image">
-                                                <img src="storage/images/ponyo.jpg" class="card-img mb-3 rounded-md"
+                                                <img src="{{ asset('backend/assets/images/ecommerce/bh4.jpg') }}" class="card-img mb-3 rounded-md"
                                                     alt="...">
                                             </a>
                                             <div class="product-icons">
@@ -354,7 +354,7 @@
                                     <div class="box product-card">
                                         <div class="box-body">
                                             <a href="product-details.html" class="product-image">
-                                                <img src="storage/images/ponyo.jpg" class="card-img mb-3 rounded-md"
+                                                <img src="{{ asset('backend/assets/images/ecommerce/01.jpg') }}" class="card-img mb-3 rounded-md"
                                                     alt="...">
                                             </a>
                                             <div class="product-icons">
@@ -388,7 +388,7 @@
                                     <div class="box product-card">
                                         <div class="box-body">
                                             <a href="product-details.html" class="product-image">
-                                                <img src="storage/images/ponyo.jpg" class="card-img mb-3 rounded-md"
+                                                <img src="{{ asset('backend/assets/images/ecommerce/01.jpg') }}" class="card-img mb-3 rounded-md"
                                                     alt="...">
                                             </a>
                                             <div class="product-icons">
@@ -422,7 +422,7 @@
                                     <div class="box product-card">
                                         <div class="box-body">
                                             <a href="product-details.html" class="product-image">
-                                                <img src="storage/images/ponyo.jpg" class="card-img mb-3 rounded-md"
+                                                <img src="{{ asset('backend/assets/images/ecommerce/01.jpg') }}" class="card-img mb-3 rounded-md"
                                                     alt="...">
                                             </a>
                                             <div class="product-icons">
@@ -456,7 +456,7 @@
                                     <div class="box product-card">
                                         <div class="box-body">
                                             <a href="product-details.html" class="product-image">
-                                                <img src="storage/images/ponyo.jpg" class="card-img mb-3 rounded-md"
+                                                <img src="{{ asset('backend/assets/images/ecommerce/01.jpg') }}" class="card-img mb-3 rounded-md"
                                                     alt="...">
                                             </a>
                                             <div class="product-icons">
@@ -490,7 +490,7 @@
                                     <div class="box product-card">
                                         <div class="box-body">
                                             <a href="product-details.html" class="product-image">
-                                                <img src="storage/images/ponyo.jpg" class="card-img mb-3 rounded-md"
+                                                <img src="{{ asset('backend/assets/images/ecommerce/01.jpg') }}" class="card-img mb-3 rounded-md"
                                                     alt="...">
                                             </a>
                                             <div class="product-icons">
@@ -524,7 +524,7 @@
                                     <div class="box product-card">
                                         <div class="box-body">
                                             <a href="product-details.html" class="product-image">
-                                                <img src="storage/images/ponyo.jpg" class="card-img mb-3 rounded-md"
+                                                <img src="{{ asset('backend/assets/images/ecommerce/01.jpg') }}" class="card-img mb-3 rounded-md"
                                                     alt="...">
                                             </a>
                                             <div class="product-icons">
@@ -559,7 +559,7 @@
                                     <div class="box product-card">
                                         <div class="box-body">
                                             <a href="product-details.html" class="product-image">
-                                                <img src="storage/images/ponyo.jpg" class="card-img mb-3 rounded-md"
+                                                <img src="{{ asset('backend/assets/images/ecommerce/01.jpg') }}" class="card-img mb-3 rounded-md"
                                                     alt="...">
                                             </a>
                                             <div class="product-icons">
@@ -595,7 +595,7 @@
                                     <div class="box product-card">
                                         <div class="box-body">
                                             <a href="product-details.html" class="product-image">
-                                                <img src="storage/images/ponyo.jpg" class="card-img mb-3 rounded-md"
+                                                <img src="{{ asset('backend/assets/images/ecommerce/01.jpg') }}" class="card-img mb-3 rounded-md"
                                                     alt="...">
                                             </a>
                                             <div class="product-icons">

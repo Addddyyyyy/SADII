@@ -67,7 +67,7 @@
                                                 <td>21,Dec 2021</td>
                                                 <td><span class="badge bg-outline-warning">Pending</span></td>
                                                 <td>
-                                                    <button type="button" class="ti-btn ti-btn-outline-danger !rounded-full ti-btn-wave  h-6">Cancel</button>
+                                                    <button type="button" class="ti-btn ti-btn-ghost-danger !rounded-full ti-btn-wave  h-6">Cancel</button>
                                                 </td>
                                             </tr>
             

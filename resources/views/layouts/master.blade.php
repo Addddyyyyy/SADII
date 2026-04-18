@@ -26,7 +26,16 @@
     <link rel="stylesheet" href="{{ asset('backend/assets/libs/@simonwep/pickr/themes/nano.min.css') }}">
   <!-- Jsvector Maps -->
   <link rel="stylesheet" href="{{ asset('backend/assets/libs/jsvectormap/css/jsvectormap.min.css') }}">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
+<style>
+.modal {
+    display:none;
+}
+.modal.show {
+    display:block !important;
+}
+</style>
 </head>
 
 <body>
@@ -1259,7 +1268,7 @@
 
   <!-- Custom JS -->
   <script src="{{ asset('backend/assets/js/custom.js') }}"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

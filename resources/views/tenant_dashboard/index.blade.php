@@ -75,7 +75,7 @@
             <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
                 <div class="box product-card">
                     <div class="box-body">
-                        <a href="product-details.html" class="product-image">
+                        <a href="{{ route('product.details') }}" class="product-image">
                             <img src="{{ asset('backend/assets/images/ecommerce/bh5.jpg') }}" class="card-img mb-3 rounded-md" alt="Cozy Haven">
                         </a>
                         <div class="product-icons">
@@ -100,7 +100,7 @@
             <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
                 <div class="box product-card">
                     <div class="box-body">
-                        <a href="product-details.html" class="product-image">
+                        <a href="{{ route('product.details') }}" class="product-image">
                             <img src="{{ asset('backend/assets/images/ecommerce/bh3.jpg') }}" class="card-img mb-3 rounded-md" alt="Cozy Haven">
                         </a>
                         <div class="product-icons">
@@ -125,7 +125,7 @@
             <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
                 <div class="box product-card">
                     <div class="box-body">
-                        <a href="product-details.html" class="product-image">
+                        <a href="{{ route('product.details') }}" class="product-image">
                             <img src="{{ asset('backend/assets/images/ecommerce/bh1.jpg') }}" class="card-img mb-3 rounded-md" alt="Cozy Haven">
                         </a>
                         <div class="product-icons">
@@ -150,7 +150,7 @@
             <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
                 <div class="box product-card">
                     <div class="box-body">
-                        <a href="product-details.html" class="product-image">
+                        <a href="{{ route('product.details') }}" class="product-image">
                             <img src="{{ asset('backend/assets/images/ecommerce/bh2.jpg') }}" class="card-img mb-3 rounded-md" alt="Cozy Haven">
                         </a>
                         <div class="product-icons">

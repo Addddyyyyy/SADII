@@ -10,7 +10,7 @@
         <div class="md:flex block items-center justify-between my-6 page-header-breadcrumb">
             <div>
                 <h4 class="mb-0 text-defaulttextcolor font-medium">Welcome back, {{ Auth::user()->name ?? 'Tenant' }}! 👋</h4>
-                <p class="-mt-[0.2rem] mb-0 text-textmuted">Here's what's happening with your bookings.</p>
+                <p class="-mt-[0.2rem] mb-0 text-textmuted">Here's what's happening with your account.</p>
             </div>
         </div>
 
@@ -84,25 +84,24 @@
                             <a aria-label="anchor" href="product-details.html" class="view"><i class="ri-eye-line"></i></a>
                         </div>
                         <p class="product-name font-semibold mb-0 flex items-center justify-between">
-                            🏠 Cozy Haven Residences <span class="ltr:float-right rtl:float-left text-warning text-xs">4.2<i class="ri-star-s-fill align-middle ms-1 inline-block"></i></span>
+                        Casa Verde Boarding House<span class="ltr:float-right rtl:float-left text-warning text-xs">4.0<i class="ri-star-s-fill align-middle ms-1 inline-block"></i></span>
                         </p>
-                        <p class="product-description text-[.6875rem] text-textmuted mb-2">Miracle Blk 1</p>
+                        <p class="product-description text-[.6875rem] text-textmuted mb-2">Miracle Blk. 1</p>
                         <p class="mb-1 font-semibold text-[1rem] flex items-center justify-between">
-                            <span>$8,500 <span class="text-textmuted line-through ms-1 inline-block opacity-[0.6] text-xs">$10,000</span></span>
+                            <span>Owner:<span class="text-textmuted ms-1 inline-block opacity-[0.6] text-xs">Step Cruz</span></span>
                             <span class="badge bg-secondary/10 text-secondary ltr:float-right rtl:float-left text-[0.625rem]">Available</span>
                         </p>
                         <p class="text-[.6875rem] text-success font-semibold mb-0 flex items-center">
-                            <i class="ti ti-discount-2 text-[1rem] me-1"></i>Offer Price $8,500
+                            ₱8,500 per/month
                         </p>
                     </div>
                 </div>
             </div>
-
             <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
                 <div class="box product-card">
                     <div class="box-body">
                         <a href="product-details.html" class="product-image">
-                            <img src="{{ asset('backend/assets/images/ecommerce/bh3.jpg') }}" class="card-img mb-3 rounded-md" alt="Modern Living">
+                            <img src="{{ asset('backend/assets/images/ecommerce/bh3.jpg') }}" class="card-img mb-3 rounded-md" alt="Cozy Haven">
                         </a>
                         <div class="product-icons">
                             <a aria-label="anchor" href="wish-list.html" class="wishlist"><i class="ri-heart-line"></i></a>
@@ -110,25 +109,24 @@
                             <a aria-label="anchor" href="product-details.html" class="view"><i class="ri-eye-line"></i></a>
                         </div>
                         <p class="product-name font-semibold mb-0 flex items-center justify-between">
-                            🏘️ Modern Living Space <span class="ltr:float-right rtl:float-left text-warning text-xs">4.5<i class="ri-star-s-fill align-middle ms-1 inline-block"></i></span>
+                        Sunrise Residences<span class="ltr:float-right rtl:float-left text-warning text-xs">4.2<i class="ri-star-s-fill align-middle ms-1 inline-block"></i></span>
                         </p>
-                        <p class="product-description text-[.6875rem] text-textmuted mb-2">Kayaga</p>
+                        <p class="product-description text-[.6875rem] text-textmuted mb-2">USM Ave.</p>
                         <p class="mb-1 font-semibold text-[1rem] flex items-center justify-between">
-                            <span>$7,200 <span class="text-textmuted line-through ms-1 inline-block opacity-[0.6] text-xs">$8,500</span></span>
+                            <span>Owner:<span class="text-textmuted ms-1 inline-block opacity-[0.6] text-xs">Step Cruz</span></span>
                             <span class="badge bg-secondary/10 text-secondary ltr:float-right rtl:float-left text-[0.625rem]">Available</span>
                         </p>
                         <p class="text-[.6875rem] text-success font-semibold mb-0 flex items-center">
-                            <i class="ti ti-discount-2 text-[1rem] me-1"></i>Offer Price $7,200
+                            ₱3,500 per/month
                         </p>
                     </div>
                 </div>
             </div>
-
             <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
                 <div class="box product-card">
                     <div class="box-body">
                         <a href="product-details.html" class="product-image">
-                            <img src="{{ asset('backend/assets/images/ecommerce/bh1.jpg') }}" class="card-img mb-3 rounded-md" alt="Student House">
+                            <img src="{{ asset('backend/assets/images/ecommerce/bh1.jpg') }}" class="card-img mb-3 rounded-md" alt="Cozy Haven">
                         </a>
                         <div class="product-icons">
                             <a aria-label="anchor" href="wish-list.html" class="wishlist"><i class="ri-heart-line"></i></a>
@@ -136,25 +134,24 @@
                             <a aria-label="anchor" href="product-details.html" class="view"><i class="ri-eye-line"></i></a>
                         </div>
                         <p class="product-name font-semibold mb-0 flex items-center justify-between">
-                            🏢 Student House <span class="ltr:float-right rtl:float-left text-warning text-xs">4.0<i class="ri-star-s-fill align-middle ms-1 inline-block"></i></span>
+                        Green Meadows BH<span class="ltr:float-right rtl:float-left text-warning text-xs">4.4<i class="ri-star-s-fill align-middle ms-1 inline-block"></i></span>
                         </p>
-                        <p class="product-description text-[.6875rem] text-textmuted mb-2">USM Avenue</p>
+                        <p class="product-description text-[.6875rem] text-textmuted mb-2">Senamar 1</p>
                         <p class="mb-1 font-semibold text-[1rem] flex items-center justify-between">
-                            <span>$6,500 <span class="text-textmuted line-through ms-1 inline-block opacity-[0.6] text-xs">$7,000</span></span>
+                            <span>Owner:<span class="text-textmuted ms-1 inline-block opacity-[0.6] text-xs">Step Cruz</span></span>
                             <span class="badge bg-secondary/10 text-secondary ltr:float-right rtl:float-left text-[0.625rem]">Available</span>
                         </p>
                         <p class="text-[.6875rem] text-success font-semibold mb-0 flex items-center">
-                            <i class="ti ti-discount-2 text-[1rem] me-1"></i>Offer Price $6,500
+                            ₱5,500 per/month
                         </p>
                     </div>
                 </div>
             </div>
-
             <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
                 <div class="box product-card">
                     <div class="box-body">
                         <a href="product-details.html" class="product-image">
-                            <img src="{{ asset('backend/assets/images/ecommerce/bh2.jpg') }}" class="card-img mb-3 rounded-md" alt="Studio">
+                            <img src="{{ asset('backend/assets/images/ecommerce/bh2.jpg') }}" class="card-img mb-3 rounded-md" alt="Cozy Haven">
                         </a>
                         <div class="product-icons">
                             <a aria-label="anchor" href="wish-list.html" class="wishlist"><i class="ri-heart-line"></i></a>
@@ -162,49 +159,69 @@
                             <a aria-label="anchor" href="product-details.html" class="view"><i class="ri-eye-line"></i></a>
                         </div>
                         <p class="product-name font-semibold mb-0 flex items-center justify-between">
-                            🏙️ Executive Studio <span class="ltr:float-right rtl:float-left text-warning text-xs">4.8<i class="ri-star-s-fill align-middle ms-1 inline-block"></i></span>
+                        Blue Haven Dormitory<span class="ltr:float-right rtl:float-left text-warning text-xs">4.5<i class="ri-star-s-fill align-middle ms-1 inline-block"></i></span>
                         </p>
-                        <p class="product-description text-[.6875rem] text-textmuted mb-2">Malvar Street</p>
+                        <p class="product-description text-[.6875rem] text-textmuted mb-2">Roxas St.</p>
                         <p class="mb-1 font-semibold text-[1rem] flex items-center justify-between">
-                            <span>$12,000 <span class="text-textmuted line-through ms-1 inline-block opacity-[0.6] text-xs">$15,000</span></span>
+                            <span>Owner:<span class="text-textmuted ms-1 inline-block opacity-[0.6] text-xs">Step Cruz</span></span>
                             <span class="badge bg-secondary/10 text-secondary ltr:float-right rtl:float-left text-[0.625rem]">Available</span>
                         </p>
                         <p class="text-[.6875rem] text-success font-semibold mb-0 flex items-center">
-                            <i class="ti ti-discount-2 text-[1rem] me-1"></i>Offer Price $12,000
+                            ₱8,500 per/month
                         </p>
                     </div>
                 </div>
             </div>
 
-        </div>
+           
 
-        <div class="grid grid-cols-12 gap-x-6">
-            <div class="xl:col-span-12 col-span-12">
-                <div class="box">
-                    <div class="box-header">
-                        <h4 class="box-title">Recent Activity</h4>
-                    </div>
-                    <div class="box-body">
-                        <ul class="ti-list-group">
-                            <li class="ti-list-group-item flex items-center gap-3">
-                                <div class="w-2 h-2 bg-primary rounded-full"></div>
-                                <div>
-                                    <p class="mb-0 font-semibold">Reservation Confirmed</p>
-                                    <p class="mb-0 text-textmuted text-[0.75rem]">Your booking at Modern Living Space is confirmed for March 15, 2026</p>
+            
+
+            
+
+</div>
+ <h5 class="mb-4 text-defaulttextcolor font-semibold">My Reservation Status</h5>
+        <div class="xl:col-span-6 col-span-12">
+                        <div class="box custom-box">
+                            <div class="box-body !p-0">
+                                <div class="table-responsive">
+                                    <table class="table whitespace-nowrap min-w-full">
+                                        <thead>
+                                            <tr class="border-b border-defaultborder">
+                                                <th scope="col" class="text-start">Boarding House</th>
+                                                <th scope="col" class="text-start">Date</th>
+                                                <th scope="col" class="text-start">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="border-b border-defaultborder">
+                                                <th scope="row" class="text-start">Casa Verde Boarding House</th>
+                                                <td>21,Dec 2021</td>
+                                                
+                                                <td><span class="badge bg-outline-warning">Pending</span></td>
+                                            </tr>
+            
+                                            <tr class="border-b border-defaultborder">
+                                                <th scope="row" class="text-start">Sunrise Residences</th>
+                                                <td>30,Nov 2022</td>
+                                                
+                                                <td><span class="badge bg-outline-success">Approved</span></td>
+                                            </tr>
+                                            <tr class="border-b border-defaultborder">
+                                                <th scope="row" class="text-start">Green Meadows BH</th>
+                                                <td>18,Mar 2022</td>
+                                                
+                                                <td><span class="badge bg-outline-secondary">Rejected</span></td>
+                                            </tr>
+                                           
+                                        </tbody>
+                                    </table>
                                 </div>
-                            </li>
-                            <li class="ti-list-group-item flex items-center gap-3">
-                                <div class="w-2 h-2 bg-danger rounded-full"></div>
-                                <div>
-                                    <p class="mb-0 font-semibold">New Message</p>
-                                    <p class="mb-0 text-textmuted text-[0.75rem]">Landlord sent you a message about your inquiry</p>
-                                </div>
-                            </li>
-                        </ul>
+                            </div>
+                            <div class="box-footer hidden border-t-0">
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
 
     </div>
 @endsection

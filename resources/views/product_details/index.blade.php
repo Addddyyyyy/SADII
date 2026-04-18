@@ -67,19 +67,19 @@
                                 <div class="swiper mySwiper2">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img alt="product-image-1" src="{{ asset('backend/assets/images/ecommerce/13.png') }}" class="img-fluid">
+                                            <img alt="product-image-1" src="{{ asset('backend/assets/images/ecommerce/bh1.jpg') }}" class="img-fluid">
                                         </div>
                                         <div class="swiper-slide">
-                                            <img alt="product-image-2" src="{{ asset('backend/assets/images/ecommerce/14.png') }}" class="img-fluid">
+                                            <img alt="product-image-2" src="{{ asset('backend/assets/images/ecommerce/bh2.jpg') }}" class="img-fluid">
                                         </div>
                                         <div class="swiper-slide">
-                                            <img alt="product-image-3" src="{{ asset('backend/assets/images/ecommerce/15.png') }}" class="img-fluid">
+                                            <img alt="product-image-3" src="{{ asset('backend/assets/images/ecommerce/bh3.jpg') }}" class="img-fluid">
                                         </div>
                                         <div class="swiper-slide">
-                                            <img alt="product-image-4" src="{{ asset('backend/assets/images/ecommerce/16.png') }}" class="img-fluid">
+                                            <img alt="product-image-4" src="{{ asset('backend/assets/images/ecommerce/bh4.jpg') }}" class="img-fluid">
                                         </div>
                                         <div class="swiper-slide">
-                                            <img alt="product-image-5" src="{{ asset('backend/assets/images/ecommerce/17.png') }}" class="img-fluid">
+                                            <img alt="product-image-5" src="{{ asset('backend/assets/images/ecommerce/bh5.jpg') }}" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="swiper-button-next"></div>
@@ -88,19 +88,19 @@
                                 <div class="swiper mySwiper">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img alt="product-image-1" src="{{ asset('backend/assets/images/ecommerce/13.png') }}" class="img-fluid">
+                                            <img alt="product-image-1" src="{{ asset('backend/assets/images/ecommerce/bh1.jpg') }}" class="img-fluid">
                                         </div>
                                         <div class="swiper-slide">
-                                            <img alt="product-image-2" src="{{ asset('backend/assets/images/ecommerce/14.png') }}" class="img-fluid">
+                                            <img alt="product-image-2" src="{{ asset('backend/assets/images/ecommerce/bh2.jpg') }}" class="img-fluid">
                                         </div>
                                         <div class="swiper-slide">
-                                            <img alt="product-image-3" src="{{ asset('backend/assets/images/ecommerce/15.png') }}" class="img-fluid">
+                                            <img alt="product-image-3" src="{{ asset('backend/assets/images/ecommerce/bh3.jpg') }}" class="img-fluid">
                                         </div>
                                         <div class="swiper-slide">
-                                            <img alt="product-image-4" src="{{ asset('backend/assets/images/ecommerce/16.png') }}" class="img-fluid">
+                                            <img alt="product-image-4" src="{{ asset('backend/assets/images/ecommerce/bh4.jpg') }}" class="img-fluid">
                                         </div>
                                         <div class="swiper-slide">
-                                            <img alt="product-image-5" src="{{ asset('backend/assets/images/ecommerce/17.png') }}" class="img-fluid">
+                                            <img alt="product-image-5" src="{{ asset('backend/assets/images/ecommerce/bh5.jpg') }}" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>

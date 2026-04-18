@@ -48,125 +48,50 @@
             </div>
         </div>
         <!-- Page Header Close -->
-       <div class="xxl:col-span-6 xl:col-span-12 col-span-12">
-                     <div class="grid grid-cols-12 gap-x-6">
-                        <div class="xl:col-span-12 col-span-12">
-                            <div class="box">
-                                <div class="box-header sm:flex justify-between">
-                                    <div class="box-title mb-2 sm:mb-0 ">
-                                        Reservation List
-                                    </div>
-                                    
+       <div class="xl:col-span-6 col-span-12">
+                        <div class="box custom-box">
+                            <div class="box-body !p-0">
+                                <div class="table-responsive">
+                                    <table class="table whitespace-nowrap min-w-full">
+                                        <thead>
+                                            <tr class="border-b border-defaultborder">
+                                                <th scope="col" class="text-start">Boarding House</th>
+                                                <th scope="col" class="text-start">Date</th>
+                                                <th scope="col" class="text-start">Status</th>
+                                                <th scope="col" class="text-start">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="border-b border-defaultborder">
+                                                <th scope="row" class="text-start">Casa Verde Boarding House</th>
+                                                <td>21,Dec 2021</td>
+                                                <td><span class="badge bg-outline-warning">Pending</span></td>
+                                                <td>
+                                                    <button type="button" class="ti-btn ti-btn-outline-danger !rounded-full ti-btn-wave  h-6">Cancel</button>
+                                                </td>
+                                            </tr>
+            
+                                            <tr class="border-b border-defaultborder">
+                                                <th scope="row" class="text-start">Sunrise Residences</th>
+                                                <td>30,Nov 2022</td>
+                                                
+                                                <td><span class="badge bg-outline-success">Approved</span></td>
+                                            </tr>
+                                            <tr class="border-b border-defaultborder">
+                                                <th scope="row" class="text-start">Green Meadows BH</th>
+                                                <td>18,Mar 2022</td>
+                                                
+                                                <td><span class="badge bg-outline-secondary">Rejected</span></td>
+                                            </tr>
+                                           
+                                        </tbody>
+                                    </table>
                                 </div>
-                                <div class="box-body  !p-0">
-                                    <div class="table-responsive">
-                                        <table class="table text-nowrap min-w-full">
-                                            <thead>
-                                                <tr>
-                                                    <th scope="col" class="text-left">Boarding House</th>
-                                                    <th scope="col"class="text-left">Room Type</th>
-                                                    <th scope="col"class="text-left">Room Number</th>
-                                                    <th scope="col"class="text-left">Monthly Rate</th>
-                                                    <th scope="col" class="text-left">Check-in Date</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr class="border !border-s-0 !border-e-0 border-inherit border-solid dark:border-defaultborder/10">
-                                                    <td>
-                                                        <div class="flex items-center">
-                                                            <div class="me-4 flex items-center">
-                                                                <span class="avatar !mb-0 avatar-xxl">
-                                                                    <img src="../assets/images/ecommerce/01.jpg" class="!rounded-sm" alt="">
-                                                                </span>
-                                                            </div>
-                                                            <div>
-                                                                <div class="mb-1 text-[0.875rem] font-medium">
-                                                                    <a href="javascript:void(0);">Pagarigan BH</a>
-                                                                </div>
-                                                                <div class="mb-1">
-                                                                    <span class="me-1">Owner:</span><span class="text-[#8c9097]">John Doe</span>
-                                                                </div>  
-                                                                <div class="mb-1">
-                                                                    <span class="me-1">Location:</span><span class="text-[#8c9097]">Roxas St.</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td><a href="javascript:void(0);" class="text-primary">Bedspace</a></td>
-                                                    <td>
-                                                        <span class="fs-15 font-medium">201</span>
-                                                    </td>
-                                                    <td>₱1,300.00</td>
-                                                    <td>14 Apr 2026</td>
-                                                </tr>
-                                                 <tr class="border !border-s-0 !border-e-0 border-inherit border-solid dark:border-defaultborder/10">
-                                                    <td>
-                                                        <div class="flex items-center">
-                                                            <div class="me-4 flex items-center">
-                                                                <span class="avatar !mb-0 avatar-xxl">
-                                                                    <img src="../assets/images/ecommerce/01.jpg" class="!rounded-sm" alt="">
-                                                                </span>
-                                                            </div>
-                                                            <div>
-                                                                <div class="mb-1 text-[0.875rem] font-medium">
-                                                                    <a href="javascript:void(0);">Crocodile BH</a>
-                                                                </div>
-                                                                <div class="mb-1">
-                                                                    <span class="me-1">Owner:</span><span class="text-[#8c9097]">Saldy Co</span>
-                                                                </div>  
-                                                                <div class="mb-1">
-                                                                    <span class="me-1">Location:</span><span class="text-[#8c9097]">USM Ave.</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td><a href="javascript:void(0);" class="text-primary">Single</a></td>
-                                                    <td>
-                                                        <span class="fs-15 font-medium">6</span>
-                                                    </td>
-                                                    <td>₱3,000.00</td>
-                                                    <td>26 May 2026</td>
-                                                </tr>
-                                                <tr class="border !border-s-0 !border-e-0 border-inherit border-solid dark:border-defaultborder/10">
-                                                    <td>
-                                                        <div class="flex items-center">
-                                                            <div class="me-4 flex items-center">
-                                                                <span class="avatar !mb-0 avatar-xxl">
-                                                                    <img src="../assets/images/ecommerce/01.jpg" class="!rounded-sm" alt="">
-                                                                </span>
-                                                            </div>
-                                                            <div>
-                                                                <div class="mb-1 text-[0.875rem] font-medium">
-                                                                    <a href="javascript:void(0);">Yellow BH</a>
-                                                                </div>
-                                                                <div class="mb-1">
-                                                                    <span class="me-1">Owner:</span><span class="text-[#8c9097]">Justin Bieber</span>
-                                                                </div>  
-                                                                <div class="mb-1">
-                                                                    <span class="me-1">Location:</span><span class="text-[#8c9097]">Miracle St.</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td><a href="javascript:void(0);" class="text-primary">Double</a></td>
-                                                    <td>
-                                                        <span class="fs-15 font-medium">03</span>
-                                                    </td>
-                                                    <td>₱2,000.00</td>
-                                                    <td>31 Jan 2026</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                                <div class="box-footer border-t-0">
-                                    <div class="btn-list float-right">
-                                        <button class="ti-btn bg-primary text-white !py-1 !px-2 !font-[500]" onclick="javascript:window.print();"><i class="ri-printer-line me-1 align-middle d-inline-block"></i>Print</button>
-                                        <button class="ti-btn bg-secondary text-white !py-1 !px-2 !font-[500]"><i class="ri-share-forward-line me-1 align-middle d-inline-block"></i>Share Details</button>
-                                    </div>
-                                </div>
+                            </div>
+                            <div class="box-footer hidden border-t-0">
                             </div>
                         </div>
                     </div>
-                </div>              
+
+    </div>
 @endsection

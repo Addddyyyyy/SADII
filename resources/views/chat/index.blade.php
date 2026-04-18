@@ -14,10 +14,8 @@
                 <nav>
                     <ol class="flex items-center whitespace-nowrap min-w-0">
                         <li class="text-[12px]"> <a class="flex items-center text-primary hover:text-primary"
-                                href="javascript:void(0);"> Mail <i
+                                href="javascript:void(0);"> Messages <i
                                     class="ti ti-chevrons-right flex-shrink-0 mx-3 overflow-visible text-textmuted rtl:rotate-180"></i>
-                            </a> </li>
-                        <li class="text-[12px]"> <a class="flex items-center text-textmuted" href="javascript:void(0);">Chat
                             </a> </li>
                     </ol>
                 </nav>

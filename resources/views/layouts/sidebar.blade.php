@@ -1,11 +1,11 @@
 <!-- Start::main-sidebar-header -->
         <div class="main-sidebar-header">
             <a href="index.html" class="header-logo">
-                <img src="{{ asset('storage/images/navbarlogo.png') }}" alt="logo" class="desktop-logo">
-                <img src="{{ asset('storage/images/navbarlogo.png') }}" alt="logo" class="toggle-logo">
-                <img src="{{ asset('storage/images/navbarlogo.png') }}" alt="logo" class="desktop-dark">
-                <img src="{{ asset('storage/images/navbarlogo.png') }}" alt="logo" class="toggle-dark">
-                <img src="{{ asset('storage/images/navbarlogo.png') }}" alt="logo" class="desktop-white">
+                <img src="{{ asset('backend/assets/images/bg_logo/navbarlogo.png') }}" alt="logo" class="desktop-logo">
+                <img src="{{ asset('backend/assets/images/bg_logo/navbarlogo.png') }}" alt="logo" class="toggle-logo">
+                <img src="{{ asset('backend/assets/images/bg_logo/navbarlogo.png') }}" alt="logo" class="desktop-dark">
+                <img src="{{ asset('backend/assets/images/bg_logo/navbarlogo.png') }}" alt="logo" class="toggle-dark">
+                <img src="{{ asset('backend/assets/images/bg_logo/navbarlogo.png') }}" alt="logo" class="desktop-white">
             </a>
         </div>
         <!-- End::main-sidebar-header -->
@@ -117,6 +117,14 @@
                                 <span class="side-menu__label">My Reservation</span>
                             </a>
                         </li>
+                        <li class="slide">
+                        <a href="{{ route('myprofile.index') }}" class="side-menu__item">
+                            <svg class="side-menu__icon" viewBox="0 0 24 24">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
+                            </svg>
+                            <span class="side-menu__label">My Profile</span>
+                        </a>
+                    </li>
                     @endif
                     <!-- End::slide --> 
 

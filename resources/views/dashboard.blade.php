@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Boarding Hub - Tenant Dashboard
+    BHFinder - Tenant Dashboard
 @endsection
 
 @section('content')

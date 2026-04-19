@@ -17,6 +17,7 @@ Route::get('/dashboard', function () {
 Route::get('/product-details', function () {
     return view('product_details.index');
 })->middleware(['auth'])->name('product.details');
+
  Route::get('/browse-boarding-house', function () {
         return view('browse_boarding_house.index');
     })->name('browse_boarding_house.index');
@@ -39,6 +40,10 @@ Route::middleware('auth')->group(function () {
         ->middleware('role:landlord');
     
 });
+
+ Route::get('/myprofile', function () {
+        return view('myprofile.index');
+    })->name('myprofile.index');
 
 
 require __DIR__.'/auth.php';

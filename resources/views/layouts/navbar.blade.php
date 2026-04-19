@@ -59,7 +59,7 @@
             </div>
 
             <!-- start header country -->
-            <div class="header-element  header-country hs-dropdown ti-dropdown"
+            <!-- <div class="header-element  header-country hs-dropdown ti-dropdown"
                 data-hs-dropdown-placement="bottom-right">
 
                 <a href="javascript:void(0);" class="header-link dropdown-toggle" data-bs-auto-close="outside"
@@ -154,7 +154,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- end header country -->
 
             <!-- light and dark theme -->
@@ -460,15 +460,15 @@
             <!--End Header Notifictaion -->
 
             <!-- Fullscreen -->
-            <div class="header-element header-fullscreen py-[1rem] md:px-[0.65rem] px-2">
+            <!-- <div class="header-element header-fullscreen py-[1rem] md:px-[0.65rem] px-2"> -->
                 <!-- Start::header-link -->
-                <a aria-label="anchor" onclick="openFullscreen();" href="javascript:void(0);"
+                <!-- <a aria-label="anchor" onclick="openFullscreen();" href="javascript:void(0);"
                     class="inline-flex flex-shrink-0 justify-center items-center gap-2  !rounded-full font-medium">
                     <i class="bx bx-fullscreen full-screen-open header-link-icon"></i>
                     <i class="bx bx-exit-fullscreen full-screen-close header-link-icon hidden"></i>
-                </a>
+                </a> -->
                 <!-- End::header-link -->
-            </div>
+            <!-- </div> -->
             <!-- End Full screen -->
 
             <!-- Start::header-element -->

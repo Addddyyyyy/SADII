@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-    Product Details - Tailwind Admin Template
+    Boarding Hub - Boarding House Details
 @endsection
 @section('content')
     
@@ -9,51 +9,19 @@
                 <!-- Page Header -->
                 <div class="md:flex block items-center justify-between mb-6 mt-[2rem]  page-header-breadcrumb">
                   <div class="my-auto">
-                    <h5 class="page-title text-[1.3125rem] font-medium text-defaulttextcolor mb-0">Product Details</h5>
-                    <nav>
-                      <ol class="flex items-center whitespace-nowrap min-w-0">
-                        <li class="text-[12px]"> <a class="flex items-center text-primary hover:text-primary"
-                            href="javascript:void(0);"> Ecommerce <i
-                              class="ti ti-chevrons-right flex-shrink-0 mx-3 overflow-visible text-textmuted rtl:rotate-180"></i>
-                          </a> </li>
-                        <li class="text-[12px]"> <a class="flex items-center text-textmuted"
-                            href="javascript:void(0);">Product Details 
-                          </a> </li>
-                      </ol>
-                    </nav>
-                  </div>
-
-                  <div class="flex xl:my-auto right-content align-items-center">
-                    <div class="pe-1 xl:mb-0">
-                      <button type="button" class="ti-btn ti-btn-info-full text-white ti-btn-icon me-2 btn-b !mb-0">
-                        <i class="mdi mdi-filter-variant"></i>
-                      </button>
-                    </div>
-                    <div class="pe-1 xl:mb-0">
-                      <button type="button" class="ti-btn ti-btn-danger-full text-white ti-btn-icon me-2 !mb-0">
-                        <i class="mdi mdi-star"></i>
-                      </button>
-                    </div>
-                    <div class="pe-1 xl:mb-0">
-                      <button type="button" class="ti-btn ti-btn-warning-full text-white  ti-btn-icon me-2 !mb-0">
-                        <i class="mdi mdi-refresh"></i>
-                      </button>
-                    </div>
-                    <div class="xl:mb-0">
-                      <div class="hs-dropdown ti-dropdown">
-                        <button class="ti-btn ti-btn-primary-full text-white dropdown-toggle !mb-0" type="button" id="dropdownMenuDate"
-                          data-bs-toggle="dropdown" aria-expanded="false">
-                          14 Aug 2019 <i class="bi bi-chevron-down text-[.6rem] font-semibold"></i>
-                        </button>
-                        <ul class="hs-dropdown-menu ti-dropdown-menu hidden !z-[100]" aria-labelledby="dropdownMenuDate">
-                          <li><a class="ti-dropdown-item" href="javascript:void(0);">2015</a></li>
-                          <li><a class="ti-dropdown-item" href="javascript:void(0);">2016</a></li>
-                          <li><a class="ti-dropdown-item" href="javascript:void(0);">2017</a></li>
-                          <li><a class="ti-dropdown-item" href="javascript:void(0);">2018</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
+                    <h5 class="page-title text-[1.3125rem] font-medium text-defaulttextcolor mb-0">Boarding Houses Details</h5>
+                        <nav>
+                            <ol class="flex items-center whitespace-nowrap min-w-0">
+                                <li class="text-[12px]"> <a class="flex items-center text-primary hover:text-primary"
+                                        href="javascript:void(0);">Browse Boarding Houses<i
+                                            class="ti ti-chevrons-right flex-shrink-0 mx-3 overflow-visible text-textmuted rtl:rotate-180"></i>
+                                    </a> </li>
+                                    <li class="text-[12px]"> <a class="flex items-center text-textmuted"
+                                        href="javascript:void(0);">Boarding House Details
+                                    </a> </li>
+                            </ol>
+                        </nav>
+                  </div>                  
                 </div>
                 <!-- Page Header Close -->
                 <!-- Page Header Close -->
@@ -112,33 +80,7 @@
                             <div class="box-body border-e border-defaultborder dark:border-defaultborder/10">
                                 <div class="p-5 !bg-[#f9fafb] dark:!bg-bodybg">
                                     <div class="space-y-5">
-                                        <h5 class="font-bold text-xl text-gray-800 dark:text-white">Sunny Day Boarding House</h5>
-                                        <div class="sm:flex sm:space-x-6 rtl:space-x-reverse sm:space-y-0 space-y-2">
-                                            <div class="flex space-x-2 rtl:space-x-reverse">
-                                                <i class="ri ri-star-fill text-danger text-sm"></i>
-                                                <p
-                                                    class="text-defaulttextcolor dark:text-white/70 text-sm space-x-2 rtl:space-x-reverse">
-                                                    4.2 Rating</p>
-                                            </div>
-                                            <div class="flex space-x-2 rtl:space-x-reverse">
-                                                <span
-                                                    class="my-auto w-1.5 h-1.5 inline-block bg-gray-400 rounded-full"></span>
-                                                <p
-                                                    class="text-defaulttextcolor dark:text-white/70 text-sm space-x-2 rtl:space-x-reverse">
-                                                    2,262 Reviews
-                                                </p>
-                                            </div>
-                                            <div class="flex space-x-2 rtl:space-x-reverse">
-                                                <span
-                                                    class="my-auto w-1.5 h-1.5 inline-block bg-gray-400 rounded-full"></span>
-                                                <p
-                                                    class="text-defaulttextcolor dark:text-white/70 text-sm space-x-2 rtl:space-x-reverse">
-                                                    10 Rooms Available</p>
-                                            </div>
-                                        </div>
-                                        <p class="text-defaulttextcolor dark:text-white/70"><strong
-                                                class="text-primary">81%</strong> of tenants
-                                            enjoyed this boarding house! <strong class="text-success">(105 votes)</strong> </p>
+                                        <h5 class="font-bold text-xl text-gray-800 dark:text-white">Sunny Day Boarding House</h5>                                                                                
                                         <div class="space-y-4">
                                             <h5 class="font-bold text-sm my-auto w-28 text-gray-800 dark:text-white">
                                                 Description :</h5>
@@ -153,10 +95,10 @@
                                         </div>
                                         <div class="sm:flex sm:space-x-2">
                                             <h5 class="font-bold text-sm my-auto w-28 text-gray-800 dark:text-white">
-                                                Price :</h5>
-                                            <h5 class="text-2xl font-semibold text-primary">$2000</h5>
+                                                Rate :</h5>
+                                            <h5 class="text-2xl font-semibold text-primary">₱2,000</h5>
                                             <span
-                                                class="my-auto line-through text-base text-defaulttextcolor dark:text-white/70 font-semibold">$2999</span>
+                                                class="my-auto text-base text-defaulttextcolor dark:text-white/70 font-semibold">/mo</span>
                                         </div>
                                         <div class="sm:flex sm:space-x-2">
                                             <h5 class="font-bold text-sm my-auto w-28 text-gray-800 dark:text-white">
@@ -177,12 +119,11 @@
                                         <h5 class="box-title">Reservation</h5>
                                     </div>
                                     <div class="box-body space-y-6">
-                                        <div class="flex space-x-3 rtl:space-x-reverse gap-3">
-                                            <h5
-                                                class="font-normal text-defaulttextcolor dark:text-white/70 text-sm my-auto w-28">
+                                        <div class="flex space-x-3 rtl:space-x-reverse">
+                                            <h5 class="font-normal text-defaulttextcolor dark:text-white/70 text-sm my-auto w-28">
                                                 Room :</h5>
                                             <select class="form-control w-full">
-                                                <option value="">Select a room</option>
+                                                <option value="">Select</option>
                                                 <option value="101">Room 101</option>
                                                 <option value="102">Room 102</option>
                                                 <option value="103">Room 103</option>
@@ -196,10 +137,15 @@
                                             </select>
                                         </div>
                                         <div class="flex space-x-3 rtl:space-x-reverse">
-                                            <h5
-                                                class="font-normal text-defaulttextcolor dark:text-white/70 text-sm my-auto w-28">
-                                                Room Type :</h5>
-                                            <p class="font-medium text-sm">Standard Room</p>
+                                            <h5 class="font-normal text-defaulttextcolor dark:text-white/70 text-sm my-auto w-28">
+                                                Room Type :
+                                            </h5>
+                                            <select class="form-control w-full">
+                                                <option value="">Select</option>
+                                                <option value="single">Single Room</option>
+                                                <option value="double">Double Room</option>
+                                                <option value="suite">Bed Spacer</option>
+                                            </select>
                                         </div>
                                         <div class="flex space-x-3 rtl:space-x-reverse">
                                             <h5
@@ -207,12 +153,12 @@
                                                 Check-in Date:</h5>
                                             <input type="date" class="form-control" value="2024-02-25">
                                         </div>
-                                        <div class="flex space-x-3 rtl:space-x-reverse">
+                                        {{-- <div class="flex space-x-3 rtl:space-x-reverse"> 
                                             <h5
                                                 class="font-normal text-defaulttextcolor dark:text-white/70 text-sm my-auto w-28">
                                                 Check-out Date:</h5>
                                             <input type="date" class="form-control" value="2024-02-27">
-                                        </div>
+                                        </div>--}}
                                         <div class="sm:flex sm:space-x-3">
                                             <h5
                                                 class="font-normal text-defaulttextcolor dark:text-white/70 text-sm my-auto w-28">
@@ -239,7 +185,7 @@
                                         </div>
                                         <!--<p class="font-medium text-sm">Booking Confirmation: Instant</p>-->
                                         <div>
-                                            <a href="product-cart.html" class="w-full ti-btn mb-4 ti-btn-primary-full">Reserve Room</a>
+                                            <a href="{{ route('myreservation.index') }}" class=" w-full ti-btn mb-4 ti-btn-primary-full">Reserve Room</a>
                                             <a href="check-out.html"
                                                 class="w-full ti-btn ti-btn-outline ti-btn-outline-primary">Chat Owner</a>
                                         </div>

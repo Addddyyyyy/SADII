@@ -18,7 +18,7 @@ Route::get('/product-details', function () {
     return view('product_details.index');
 })->middleware(['auth'])->name('product.details');
 
- Route::get('/browse-boarding-house', function () {
+Route::get('/browse-boarding-house', function () {
         return view('browse_boarding_house.index');
     })->name('browse_boarding_house.index');
 

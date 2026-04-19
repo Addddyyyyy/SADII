@@ -81,7 +81,6 @@
                                                 <th scope="row" class="text-start">John Doe</th>
                                                 <td>Sunrise Residences</td>
                                                 <td>30,Nov 2022</td>
-                                                
                                                 <td><span class="badge bg-outline-success">Approved</span></td>
                                             </tr>
                                             <tr class="border-b border-defaultborder">
@@ -99,7 +98,7 @@
                             <div class="box-footer hidden border-t-0">
                             </div>
                         </div>
-</div>
+            </div>
 
             </div>
 @endsection

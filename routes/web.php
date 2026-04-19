@@ -32,6 +32,7 @@ Route::middleware('auth')->group(function () {
     Route::view('/chat', 'chat.index')->name('chat.index');
     Route::view('/landlord_dashboard', 'landlord_dashboard.index')->name('landlord_dashboard.index');
     Route::view('/tenant_dashboard', 'tenant_dashboard.index')->name('tenant_dashboard.index');
+     Route::resource('my_boarding_houses', BoardingHouseController::class);
 
     // reservation routes (role-protected)
     Route::view('/myreservation', 'myreservation.index')->name('myreservation.index')

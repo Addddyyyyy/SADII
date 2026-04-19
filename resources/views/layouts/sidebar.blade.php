@@ -90,6 +90,14 @@
                             <span class="side-menu__label">Browse Boarding Houses</span>
                         </a>
                     </li>
+                    <li class="slide">
+                        <a href="{{ route('my_boarding_houses.index') }}" class="side-menu__item">
+                            <svg class="side-menu__icon" viewBox="0 0 24 24">
+                                <path d="M15.5 5C13.567 5 12 6.567 12 8.5C12 10.433 13.567 12 15.5 12C17.433 12 19 10.433 19 8.5C19 6.567 17.433 5 15.5 5ZM10 8.5C10 5.46243 12.4624 3 15.5 3C18.5376 3 21 5.46243 21 8.5C21 9.6575 20.6424 10.7315 20.0317 11.6175L22.7071 14.2929L21.2929 15.7071L18.6175 13.0317C17.7315 13.6424 16.6575 14 15.5 14C12.4624 14 10 11.5376 10 8.5ZM3 4H8V6H3V4ZM3 11H8V13H3V11ZM21 18V20H3V18H21Z"></path>
+                            </svg>
+                            <span class="side-menu__label">My Boarding House</span>
+                        </a>
+                    </li>
                      <li class="slide">
                         <a href="{{ route('chat.index') }}" class="side-menu__item">
                             <svg class="side-menu__icon" viewBox="0 0 24 24">
@@ -102,7 +110,9 @@
                     <li class="slide">
                             <a href="{{ route('reservation.index') }}" class="side-menu__item">
                                 
-                                <svg class="side-menu__icon" viewBox="0 0 24 24"><path d="M21.5 5.134a1 1 0 0 1 .493 .748l.007 .118v13a1 1 0 0 1 -1.5 .866a8 8 0 0 0 -7.5 -.266v-15.174a10 10 0 0 1 8.5 .708m-10.5 -.707l.001 15.174a8 8 0 0 0 -7.234 .117l-.327 .18l-.103 .044l-.049 .016l-.11 .026l-.061 .01l-.117 .006h-.042l-.11 -.012l-.077 -.014l-.108 -.032l-.126 -.056l-.095 -.056l-.089 -.067l-.06 -.056l-.073 -.082l-.064 -.089l-.022 -.036l-.032 -.06l-.044 -.103l-.016 -.049l-.026 -.11l-.01 -.061l-.004 -.049l-.002 -13.068a1 1 0 0 1 .5 -.866a10 10 0 0 1 8.5 -.707" /></svg>
+                                <svg class="side-menu__icon" viewBox="0 0 24 24">
+                                    <path d="M17 2V4H20.0066C20.5552 4 21 4.44495 21 4.9934V21.0066C21 21.5552 20.5551 22 20.0066 22H3.9934C3.44476 22 3 21.5551 3 21.0066V4.9934C3 4.44476 3.44495 4 3.9934 4H7V2H17ZM7 6H5V20H19V6H17V8H7V6ZM9 16V18H7V16H9ZM9 13V15H7V13H9ZM9 10V12H7V10H9ZM15 4H9V6H15V4Z"></path>
+                                </svg>
                                 <span class="side-menu__label">Reservation</span>
                             </a>
                         </li>

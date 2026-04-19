@@ -28,13 +28,21 @@
   <!-- Jsvector Maps -->
   <link rel="stylesheet" href="{{ asset('backend/assets/libs/jsvectormap/css/jsvectormap.min.css') }}">
     <!-- Choices Css -->
-<link rel="stylesheet" href="../assets/libs/choices.js/public/assets/styles/choices.min.css">
+  <link rel="stylesheet" href="{{ asset('backend/assets/libs/choices.js/public/assets/styles/choices.min.css') }}">
 
- <link rel="stylesheet" href="../assets/libs/swiper/swiper-bundle.min.css">
   <!-- Swiper Css -->
   <link rel="stylesheet" href="{{ asset('backend/assets/libs/swiper/swiper-bundle.min.css') }}">
 
-</head>
+  <!-- Tom Select Css -->
+  <link rel="stylesheet" href="{{ asset('backend/assets/libs/tom-select/css/tom-select.default.min.css') }}">
+
+  <!-- Dropzone File Upload  Css -->
+<link rel="stylesheet" href="{{ asset('backend/assets/libs/dropzone/dropzone.css') }}">
+
+<!-- filepond File Upload  Css -->
+<link rel="stylesheet" href="{{ asset('backend/assets/libs/filepond/filepond.min.css') }}">
+<link rel="stylesheet" href="{{ asset('backend/assets/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.css') }}">
+<link rel="stylesheet" href="{{ asset('backend/assets/libs/filepond-plugin-image-edit/filepond-plugin-image-edit.min.css') }}">
 
 <body>
 
@@ -1269,46 +1277,30 @@
 
   <!-- Swiper JS -->
   <script src="{{ asset('backend/assets/libs/swiper/swiper-bundle.min.js') }}"></script>
-
-  
-<!-- popperjs -->
-    <script src="../assets/libs/@popperjs/core/umd/popper.min.js"></script>
-
-    <!-- Color Picker JS -->
-    <script src="../assets/libs/@simonwep/pickr/pickr.es5.min.js"></script>
-
-    <!-- sidebar JS -->
-    <script src="../assets/js/defaultmenu.js"></script>
-
-    <!-- Switch JS -->
-    <script src="../assets/js/switch.js"></script>
-
-    <!-- sticky JS -->
-    <script src="../assets/js/sticky.js"></script>
-
-
-    <!-- Simplebar JS -->
-    <script src="../assets/libs/simplebar/simplebar.min.js"></script>
-
-    <!-- Preline JS -->
-    <script src="../assets/libs/preline/preline.js"></script>
-
-    
-    <!-- Custom-Switcher JS -->
-    <script src="../assets/js/custom-switcher.js"></script>
-
-     <!-- Choices JS -->
-  <script src="../assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
-
-    <!-- Swiper JS -->
-    <script src="../assets/libs/swiper/swiper-bundle.min.js"></script>
-
+{{--  --}}
     <!-- Internal Product-Details JS -->
-    <script src="../assets/js/product-details.js"></script>
+    <script src="{{ asset('backend/assets/js/product-details.js') }}"></script>
 
-    <!-- Custom JS -->
-    <script src="../assets/js/custom.js"></script>
-
+    <!-- Choices JS -->
+    <script src="{{ asset('backend/assets/libs/choices.js/public/assets/scripts/choices.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/js/choices.js') }}"></script>
+    <!-- Tom Select JS -->
+    <script src="{{ asset('backend/assets/libs/tom-select/js/tom-select.complete.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/js/tom-select.js') }}"></script>
+    <!-- DropZone File Upload JS -->
+    <script src="{{ asset('backend/assets/libs/dropzone/dropzone-min.js') }}"></script>
+    <!-- Filepond File Upload JS -->
+    <script src="{{ asset('backend/assets/libs/filepond-plugin-image-preview/filepond-plugin-image-preview.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/filepond-plugin-file-encode/filepond-plugin-file-encode.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/filepond-plugin-file-validate-size/filepond-plugin-file-validate-size.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/filepond-plugin-file-validate-type/filepond-plugin-file-validate-type.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/filepond-plugin-image-edit/filepond-plugin-image-edit.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/filepond-plugin-image-exif-orientation/filepond-plugin-image-exif-orientation.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/filepond-plugin-image-crop/filepond-plugin-image-crop.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/filepond-plugin-image-resize/filepond-plugin-image-resize.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/filepond-plugin-image-transform/filepond-plugin-image-transform.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/libs/filepond/filepond.min.js') }}"></script>
+    <script src="{{ asset('backend/assets/js/fileupload.js') }}"></script>
 </body>
 
 </html>

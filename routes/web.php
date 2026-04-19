@@ -41,5 +41,9 @@ Route::middleware('auth')->group(function () {
     
 });
 
+ Route::get('/myprofile', function () {
+        return view('myprofile.index');
+    })->name('myprofile.index');
+
 
 require __DIR__.'/auth.php';

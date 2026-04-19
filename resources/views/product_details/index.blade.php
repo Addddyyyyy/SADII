@@ -234,15 +234,14 @@
                                         <div class="flex space-x-3 rtl:space-x-reverse">
                                             <h5
                                                 class="font-normal text-defaulttextcolor dark:text-white/70 text-sm my-auto w-28">
-                                                Total :</h5>
-                                            <p class="font-medium text-sm">$2000</p>
+                                                Monthly rate:</h5>
+                                            <p class="font-medium text-sm">₱2,000.00</p>
                                         </div>
                                         <!--<p class="font-medium text-sm">Booking Confirmation: Instant</p>-->
                                         <div>
                                             <a href="product-cart.html" class="w-full ti-btn mb-4 ti-btn-primary-full">Reserve Room</a>
                                             <a href="check-out.html"
-                                                class="w-full ti-btn ti-btn-outline ti-btn-outline-primary">Book
-                                                Now</a>
+                                                class="w-full ti-btn ti-btn-outline ti-btn-outline-primary">Chat Owner</a>
                                         </div>
                                     </div>
                                 </div>

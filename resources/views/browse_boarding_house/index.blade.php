@@ -63,27 +63,21 @@
                             <div class="box products-navigation-card">
                                 
                                 <div class="p-4 border-b dark:border-defaultborder/10">
-                                    <p class="font-semibold mb-0  dark:text-white/50">Location</p>
                                    <div class="ti-btn-group !me-2 my-1 ">
-                                    <div class="ti-btn-group !me-2">
-                                        <div class="hs-dropdown ti-dropdown">
-                                            <button class="ti-btn ti-btn-outline-secondary !border-secondary ti-dropdown-toggle"
-                                                type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                                aria-expanded="false">
-                                                Select location<i class="ri-arrow-down-s-line align-middle inline-block"></i>
-                                            </button>
-                                            <ul class="hs-dropdown-menu ti-dropdown-menu hidden"
-                                                aria-labelledby="dropdownMenuButton1">
-                                                <li><a class="ti-dropdown-item" href="javascript:void(0);">Miracle</a>
-                                                </li>
-                                                <li><a class="ti-dropdown-item" href="javascript:void(0);">Avenue</a></li>
-                                                <li><a class="ti-dropdown-item" href="javascript:void(0);">Senamar</a></li>
-                                                <li><a class="ti-dropdown-item" href="javascript:void(0);">Roxas</a></li>
-                                            </ul>
+                                    <div class="flex space-x-3 rtl:space-x-reverse gap-3">
+                                            <h5
+                                                class="font-semibold text-defaulttextcolor dark:text-white/70 text-sm my-auto w-28">
+                                                Location :</h5>
+                                                <select class="form-control w-full">
+                                                <option value="">Select Location</option>
+                                                <option value="101">Miracle</option>
+                                                <option value="102">Avenue</option>
+                                                <option value="103">Sinamar</option>
+                                                <option value="103">Roxas</option>
+                                            </select>
                                         </div>
                                 </div>
-                                </div>
-                                </div>
+                            </div>
                                 
                                 <div class="p-4 border-b dark:border-defaultborder/10">
                                     <p class="font-semibold mb-0  dark:text-white/50">Amenities</p>
@@ -118,6 +112,24 @@
                                                 CCTV
                                             </label>
                                         </div>
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input !align-middle" type="checkbox" value="" id="high1">
+                                            <label class="form-check-label" for="high1">
+                                                AC
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input !align-middle" type="checkbox" value="" id="high1">
+                                            <label class="form-check-label" for="high1">
+                                                Common Area
+                                            </label>
+                                        </div>
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input !align-middle" type="checkbox" value="" id="high1">
+                                            <label class="form-check-label" for="high1">
+                                                Private Bathroom
+                                            </label>
+                                        </div>
                                     </div>
                                 </div>
                                 
@@ -133,107 +145,148 @@
                                 </div>
                               </div>
                             <div class="grid grid-cols-12 gap-x-6">
-                                <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
-             <div class="box product-card">
-                    <div class="box-body">
-                        <a href="{{ route('product.details') }}" class="product-image">
-                            <img src="{{ asset('backend/assets/images/ecommerce/bh5.jpg') }}" class="card-img mb-3 rounded-md" alt="Cozy Haven">
-                        </a>
-                        <div class="product-icons">
-                            <a aria-label="anchor" href="wish-list.html" class="wishlist"><i class="ri-heart-line"></i></a>
-                            <a aria-label="anchor" href="product-cart.html" class="cart"><i class="ri-shopping-cart-line"></i></a>
-                            <a aria-label="anchor" href="product-details.html" class="view"><i class="ri-eye-line"></i></a>
-                        </div>
-                        <p class="product-name font-semibold mb-0 flex items-center justify-between">
-                        Casa Verde Boarding House<span class="ltr:float-right rtl:float-left text-warning text-xs">4.0<i class="ri-star-s-fill align-middle ms-1 inline-block"></i></span>
-                        </p>
-                        <p class="product-description text-[.6875rem] text-textmuted mb-2">Miracle Blk. 1</p>
-                        <p class="mb-1 font-semibold text-[1rem] flex items-center justify-between">
-                            <span>Owner:<span class="text-textmuted ms-1 inline-block opacity-[0.6] text-xs">Step Cruz</span></span>
-                            <span class="badge bg-secondary/10 text-secondary ltr:float-right rtl:float-left text-[0.625rem]">Available</span>
-                        </p>
-                        <p class="text-[.6875rem] text-success font-semibold mb-0 flex items-center">
-                            ₱8,500 per/month
-                        </p>
-                    </div>
-                </div>
-            </div>
-                                <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
-                <div class="box product-card">
-                    <div class="box-body">
-                        <a href="{{ route('product.details') }}" class="product-image">
-                            <img src="{{ asset('backend/assets/images/ecommerce/bh3.jpg') }}" class="card-img mb-3 rounded-md" alt="Cozy Haven">
-                        </a>
-                        <div class="product-icons">
-                            <a aria-label="anchor" href="wish-list.html" class="wishlist"><i class="ri-heart-line"></i></a>
-                            <a aria-label="anchor" href="product-cart.html" class="cart"><i class="ri-shopping-cart-line"></i></a>
-                            <a aria-label="anchor" href="product-details.html" class="view"><i class="ri-eye-line"></i></a>
-                        </div>
-                        <p class="product-name font-semibold mb-0 flex items-center justify-between">
-                        Sunrise Residences<span class="ltr:float-right rtl:float-left text-warning text-xs">4.2<i class="ri-star-s-fill align-middle ms-1 inline-block"></i></span>
-                        </p>
-                        <p class="product-description text-[.6875rem] text-textmuted mb-2">USM Ave.</p>
-                        <p class="mb-1 font-semibold text-[1rem] flex items-center justify-between">
-                            <span>Owner:<span class="text-textmuted ms-1 inline-block opacity-[0.6] text-xs">Step Cruz</span></span>
-                            <span class="badge bg-secondary/10 text-secondary ltr:float-right rtl:float-left text-[0.625rem]">Available</span>
-                        </p>
-                        <p class="text-[.6875rem] text-success font-semibold mb-0 flex items-center">
-                            ₱3,500 per/month
-                        </p>
-                    </div>
-                </div>
-            </div>
-                                <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
-                <div class="box product-card">
-                    <div class="box-body">
-                        <a href="{{ route('product.details') }}" class="product-image">
-                            <img src="{{ asset('backend/assets/images/ecommerce/bh1.jpg') }}" class="card-img mb-3 rounded-md" alt="Cozy Haven">
-                        </a>
-                        <div class="product-icons">
-                            <a aria-label="anchor" href="wish-list.html" class="wishlist"><i class="ri-heart-line"></i></a>
-                            <a aria-label="anchor" href="product-cart.html" class="cart"><i class="ri-shopping-cart-line"></i></a>
-                            <a aria-label="anchor" href="product-details.html" class="view"><i class="ri-eye-line"></i></a>
-                        </div>
-                        <p class="product-name font-semibold mb-0 flex items-center justify-between">
-                        Green Meadows BH<span class="ltr:float-right rtl:float-left text-warning text-xs">4.4<i class="ri-star-s-fill align-middle ms-1 inline-block"></i></span>
-                        </p>
-                        <p class="product-description text-[.6875rem] text-textmuted mb-2">Senamar 1</p>
-                        <p class="mb-1 font-semibold text-[1rem] flex items-center justify-between">
-                            <span>Owner:<span class="text-textmuted ms-1 inline-block opacity-[0.6] text-xs">Step Cruz</span></span>
-                            <span class="badge bg-secondary/10 text-secondary ltr:float-right rtl:float-left text-[0.625rem]">Available</span>
-                        </p>
-                        <p class="text-[.6875rem] text-success font-semibold mb-0 flex items-center">
-                            ₱5,500 per/month
-                        </p>
-                    </div>
-                </div>
-            </div>
-                              <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
-                <div class="box product-card">
-                    <div class="box-body">
-                        <a href="{{ route('product.details') }}"class="product-image">
-                            <img src="{{ asset('backend/assets/images/ecommerce/bh2.jpg') }}" class="card-img mb-3 rounded-md" alt="Cozy Haven">
-                        </a>
-                        <div class="product-icons">
-                            <a aria-label="anchor" href="wish-list.html" class="wishlist"><i class="ri-heart-line"></i></a>
-                            <a aria-label="anchor" href="product-cart.html" class="cart"><i class="ri-shopping-cart-line"></i></a>
-                            <a aria-label="anchor" href="product-details.html" class="view"><i class="ri-eye-line"></i></a>
-                        </div>
-                        <p class="product-name font-semibold mb-0 flex items-center justify-between">
-                        Blue Haven Dormitory<span class="ltr:float-right rtl:float-left text-warning text-xs">4.5<i class="ri-star-s-fill align-middle ms-1 inline-block"></i></span>
-                        </p>
-                        <p class="product-description text-[.6875rem] text-textmuted mb-2">Roxas St.</p>
-                        <p class="mb-1 font-semibold text-[1rem] flex items-center justify-between">
-                            <span>Owner:<span class="text-textmuted ms-1 inline-block opacity-[0.6] text-xs">Step Cruz</span></span>
-                            <span class="badge bg-secondary/10 text-secondary ltr:float-right rtl:float-left text-[0.625rem]">Available</span>
-                        </p>
-                        <p class="text-[.6875rem] text-success font-semibold mb-0 flex items-center">
-                            ₱8,500 per/month
-                        </p>
-                    </div>
-                </div>
-            </div>
-                                <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
+                            <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
+                                    <div class="box product-card">
+                                    <div class="box-body">
+                                        <a href="{{ route('product.details') }}" class="product-image">
+                                            <img src="{{ asset('backend/assets/images/ecommerce/bh5.jpg') }}" class="card-img mb-3 rounded-md" alt="Cozy Haven">
+                                        </a>
+                                        <div class="product-icons">
+                                            <a aria-label="anchor" href="wish-list.html" class="wishlist"><i class="ri-heart-line"></i></a>
+                                            <a aria-label="anchor" href="product-cart.html" class="cart"><i class="ri-shopping-cart-line"></i></a>
+                                            <a aria-label="anchor" href="product-details.html" class="view"><i class="ri-eye-line"></i></a>
+                                        </div>
+                                        <p class="product-name font-semibold mb-0 flex items-center justify-between">
+                                        Casa Verde Boarding House
+                                        </p>
+                                        <p class="product-description text-[.6875rem] text-success mb-2"><i class="ri-map-pin-line"></i>Miracle</p>
+                                        {{--  --}}
+                                                <div class="flex flex-wrap gap-2 mb-2">
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">WiFi</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Kitchen</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Laundry</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Common Area</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Study Room</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Parking</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">CCTV</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">AC</span>
+                                                </div>
+                                        {{--  --}}
+                                        <p class="mb-1 font-semibold text-primary text-[1rem] flex items-center justify-between">
+                                            <span>₱8,500<span class="text-textmuted inline-block opacity-[0.6] text-xs">/mo</span></span>
+                                            <span class="badge bg-secondary/10 text-secondary ltr:float-right rtl:float-left text-[0.625rem]">Available</span>
+                                        </p>
+                                    </div>
+                                    </div>
+                                
+                            </div>
+                            <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
+                                    <div class="box product-card">
+                                    <div class="box-body">
+                                        <a href="{{ route('product.details') }}" class="product-image">
+                                            <img src="{{ asset('backend/assets/images/ecommerce/bh3.jpg') }}" class="card-img mb-3 rounded-md" alt="Cozy Haven">
+                                        </a>
+                                        <div class="product-icons">
+                                            <a aria-label="anchor" href="wish-list.html" class="wishlist"><i class="ri-heart-line"></i></a>
+                                            <a aria-label="anchor" href="product-cart.html" class="cart"><i class="ri-shopping-cart-line"></i></a>
+                                            <a aria-label="anchor" href="product-details.html" class="view"><i class="ri-eye-line"></i></a>
+                                        </div>
+                                        <p class="product-name font-semibold mb-0 flex items-center justify-between">
+                                        Sunrise Residences
+                                        </p>
+                                        <p class="product-description text-[.6875rem] text-success mb-2"><i class="ri-map-pin-line"></i>Avenue</p>
+                                        {{--  --}}
+                                                <div class="flex flex-wrap gap-2 mb-2">
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">WiFi</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Kitchen</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Laundry</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Common Area</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Study Room</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Parking</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">CCTV</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">AC</span>
+                                                </div>
+                                        {{--  --}}
+                                        <p class="mb-1 font-semibold text-primary text-[1rem] flex items-center justify-between">
+                                            <span>₱3,500<span class="text-textmuted inline-block opacity-[0.6] text-xs">/mo</span></span>
+                                            <span class="badge bg-secondary/10 text-secondary ltr:float-right rtl:float-left text-[0.625rem]">Available</span>
+                                        </p>
+                                    </div>
+                                    </div>
+                                
+                            </div>
+                            <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
+                                    <div class="box product-card">
+                                    <div class="box-body">
+                                        <a href="{{ route('product.details') }}" class="product-image">
+                                            <img src="{{ asset('backend/assets/images/ecommerce/bh1.jpg') }}" class="card-img mb-3 rounded-md" alt="Cozy Haven">
+                                        </a>
+                                        <div class="product-icons">
+                                            <a aria-label="anchor" href="wish-list.html" class="wishlist"><i class="ri-heart-line"></i></a>
+                                            <a aria-label="anchor" href="product-cart.html" class="cart"><i class="ri-shopping-cart-line"></i></a>
+                                            <a aria-label="anchor" href="product-details.html" class="view"><i class="ri-eye-line"></i></a>
+                                        </div>
+                                        <p class="product-name font-semibold mb-0 flex items-center justify-between">
+                                        Green Meadows BH
+                                        </p>
+                                        <p class="product-description text-[.6875rem] text-success mb-2"><i class="ri-map-pin-line"></i>Senamar</p>
+                                        {{--  --}}
+                                                <div class="flex flex-wrap gap-2 mb-2">
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">WiFi</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Kitchen</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Laundry</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Common Area</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Study Room</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Parking</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">CCTV</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">AC</span>
+                                                </div>
+                                        {{--  --}}
+                                        <p class="mb-1 font-semibold text-primary text-[1rem] flex items-center justify-between">
+                                            <span>₱3,500<span class="text-textmuted inline-block opacity-[0.6] text-xs">/mo</span></span>
+                                            <span class="badge bg-secondary/10 text-secondary ltr:float-right rtl:float-left text-[0.625rem]">Available</span>
+                                        </p>
+                                    </div>
+                                    </div>
+                                
+                            </div>
+                            <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
+                                    <div class="box product-card">
+                                    <div class="box-body">
+                                        <a href="{{ route('product.details') }}" class="product-image">
+                                            <img src="{{ asset('backend/assets/images/ecommerce/bh2.jpg') }}" class="card-img mb-3 rounded-md" alt="Cozy Haven">
+                                        </a>
+                                        <div class="product-icons">
+                                            <a aria-label="anchor" href="wish-list.html" class="wishlist"><i class="ri-heart-line"></i></a>
+                                            <a aria-label="anchor" href="product-cart.html" class="cart"><i class="ri-shopping-cart-line"></i></a>
+                                            <a aria-label="anchor" href="product-details.html" class="view"><i class="ri-eye-line"></i></a>
+                                        </div>
+                                        <p class="product-name font-semibold mb-0 flex items-center justify-between">
+                                        Blue Haven Dormitory
+                                        </p>
+                                        <p class="product-description text-[.6875rem] text-success mb-2"><i class="ri-map-pin-line"></i>Roxas St.</p>
+                                        {{--  --}}
+                                                <div class="flex flex-wrap gap-2 mb-2">
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">WiFi</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Kitchen</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Laundry</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Common Area</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Study Room</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">Parking</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">CCTV</span>
+                                                    <span class="px-2 py-1 text-[0.75rem] rounded-full border border-gray-300">AC</span>
+                                                </div>
+                                        {{--  --}}
+                                        <p class="mb-1 font-semibold text-primary text-[1rem] flex items-center justify-between">
+                                            <span>₱2,500<span class="text-textmuted inline-block opacity-[0.6] text-xs">/mo</span></span>
+                                            <span class="badge bg-secondary/10 text-secondary ltr:float-right rtl:float-left text-[0.625rem]">Available</span>
+                                        </p>
+                                    </div>
+                                    </div>
+                                
+                            </div>
+            
+                            <div class="xxl:col-span-3 xl:col-span-6 lg:col-span-6 md:col-span-4 sm:col-span-6 col-span-12">
                                     <div class="box product-card">
                                         <div class="box-body">
                                             <a href="product-details.html" class="product-image">

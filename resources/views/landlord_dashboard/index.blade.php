@@ -77,7 +77,12 @@ Boarding Hub - Tenant Dashboard
     <h5 class="mb-4 text-defaulttextcolor font-semibold">Recent Reservations</h5>
     <div class="xl:col-span-6 col-span-12">
                         <div class="box custom-box">
-                            <div class="box-body !p-0">
+                            <div class="box-header flex justify-between">
+                                <div class="box-title">
+                                    
+                                </div>                                
+                            </div>
+                            <div class="box-body !p-0">                                
                                 <div class="table-responsive">
                                     <table class="table whitespace-nowrap min-w-full">
                                         <thead>

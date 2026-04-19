@@ -256,7 +256,7 @@
         <div class="main-content !p-0 landing-main dark:text-defaulttextcolor/70">
             <!-- Start::Home Content -->
             <div class="landing-banner" id="home"
-              style="background-image: url('backend/assets/images/bg_logo/bglandingpage.png'); background-size: cover; background-position: center;">
+              style="background-image: url('{{ asset('backend/assets/images/bg_logo/bglandingpage.jpg') }}'); background-size: cover; background-position: center;">
                 <section class="section !pt-[6rem]">
                     <div class="container main-banner-container !pt-3 sm:!pt-[6rem]">
                         <div class="grid grid-cols-12 gap-x-6">
@@ -282,7 +282,7 @@
             <!-- End::Home Content -->
 
             <!-- Start:: Section-2 -->
-            <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 section-bg" id="features">
+            <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 section-bg" id="about">
                 <div class="container text-center position-relative py-3">
 
                     <!-- OUR STORY -->
@@ -410,7 +410,7 @@
             <!-- End:: Section-5 -->
              
                         <!-- Start:: Section-2 -->
-                ```<section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 section-bg py-20" id="features">
+                <section class="section text-defaulttextcolor dark:text-defaulttextcolor/70 section-bg py-20" id="contact">
                     <div class="container mx-auto px-4">
 
                         <!-- WHITE BOX -->

@@ -48,6 +48,12 @@ class RegisteredUserController extends Controller
 
         Auth::login($user);
 
+        if ($user->role === 'landlord') {
+            return redirect()->route('landlord_dashboard.index');
+        } elseif ($user->role === 'tenant') {
+            return redirect()->route('tenant_dashboard.index');
+        }
+
         return redirect(route('dashboard', absolute: false));
     }
 

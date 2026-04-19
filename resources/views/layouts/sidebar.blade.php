@@ -52,61 +52,30 @@
 
                     <!-- Start::slide -->
 
-                    <li class="slide">
+                    {{-- <li class="slide"> 
                         <a href="{{ route('users.index') }}" class="side-menu__item">
                             <svg class="side-menu__icon"  viewBox="0 0 24 24"><path d="M2 22C2 17.5817 5.58172 14 10 14C14.4183 14 18 17.5817 18 22H16C16 18.6863 13.3137 16 10 16C6.68629 16 4 18.6863 4 22H2ZM10 13C6.685 13 4 10.315 4 7C4 3.685 6.685 1 10 1C13.315 1 16 3.685 16 7C16 10.315 13.315 13 10 13ZM10 11C12.21 11 14 9.21 14 7C14 4.79 12.21 3 10 3C7.79 3 6 4.79 6 7C6 9.21 7.79 11 10 11ZM18.2837 14.7028C21.0644 15.9561 23 18.752 23 22H21C21 19.564 19.5483 17.4671 17.4628 16.5271L18.2837 14.7028ZM17.5962 3.41321C19.5944 4.23703 21 6.20361 21 8.5C21 11.3702 18.8042 13.7252 16 13.9776V11.9646C17.6967 11.7222 19 10.264 19 8.5C19 7.11935 18.2016 5.92603 17.041 5.35635L17.5962 3.41321Z" opacity=".3"/><circle cx="15.5" cy="9.5" r="1.5"/><circle cx="8.5" cy="9.5" r="1.5"/><path d="M2 22C2 17.5817 5.58172 14 10 14C14.4183 14 18 17.5817 18 22H16C16 18.6863 13.3137 16 10 16C6.68629 16 4 18.6863 4 22H2ZM10 13C6.685 13 4 10.315 4 7C4 3.685 6.685 1 10 1C13.315 1 16 3.685 16 7C16 10.315 13.315 13 10 13ZM10 11C12.21 11 14 9.21 14 7C14 4.79 12.21 3 10 3C7.79 3 6 4.79 6 7C6 9.21 7.79 11 10 11ZM18.2837 14.7028C21.0644 15.9561 23 18.752 23 22H21C21 19.564 19.5483 17.4671 17.4628 16.5271L18.2837 14.7028ZM17.5962 3.41321C19.5944 4.23703 21 6.20361 21 8.5C21 11.3702 18.8042 13.7252 16 13.9776V11.9646C17.6967 11.7222 19 10.264 19 8.5C19 7.11935 18.2016 5.92603 17.041 5.35635L17.5962 3.41321Z"/></svg>
                             <span class="side-menu__label">User Management</span>
                         </a>
-                    </li>
-
-                    <!-- Start::slide -->
+                    </li>--}}
+                    <!-- Start::slide -->                                                                                             
+                    @if(Auth::user()->role === 'landlord')
                     <li class="slide">
                         <a href="{{ route('landlord_dashboard.index') }}" class="side-menu__item">
                             <svg class="side-menu__icon" viewBox="0 0 24 24">
                                 <path d="M0 0h24v24H0V0z" fill="none"/><path d="M5 5h4v6H5zm10 8h4v6h-4zM5 17h4v2H5zM15 5h4v2h-4z" opacity=".3"/><path d="M3 13h8V3H3v10zm2-8h4v6H5V5zm8 16h8V11h-8v10zm2-8h4v6h-4v-6zM13 3v6h8V3h-8zm6 4h-4V5h4v2zM3 21h8v-6H3v6zm2-4h4v2H5v-2z"/>
                             </svg>
-                            <span class="side-menu__label">Landlord Dashboard</span>
-                        </a>
-                    </li>
-                    <li class="slide">
-                        <a href="{{ route('tenant_dashboard.index') }}" class="side-menu__item">
-                            <svg class="side-menu__icon" viewBox="0 0 24 24">
-                                <path d="M0 0h24v24H0V0z" fill="none"/><path d="M5 5h4v6H5zm10 8h4v6h-4zM5 17h4v2H5zM15 5h4v2h-4z" opacity=".3"/><path d="M3 13h8V3H3v10zm2-8h4v6H5V5zm8 16h8V11h-8v10zm2-8h4v6h-4v-6zM13 3v6h8V3h-8zm6 4h-4V5h4v2zM3 21h8v-6H3v6zm2-4h4v2H5v-2z"/>
-                            </svg>
-                            <span class="side-menu__label">Tenant Dashboard</span>
-                        </a>
-                    </li>
-                    <li class="slide">
-                        <a href="{{ route('product.details') }}" class="side-menu__item">
-                            <svg class="side-menu__icon" viewBox="0 0 24 24"><path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.0 five .2 five .0 five .2 five .0 five .2 five .0 five .2 five .0 five .2 five .0 five .2 five .0 five .2 five .0 five .2 five .0 five .2 five .0 five .2 five .0 five .2 five .0 five .2 five .0 five .2 five .0 five .2 five .0 five .2 five .0 five .2五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。五 。five。five。five。five。five。five。five。five。five。five。five。five。five。five。five。five。five。five。five。five。five。five。five。five。five。five。five。five。five。5 0 0 1 .5-.5c.25 0 .5.25.5.5V6c0-1.1-.9-2-2-2z"/></svg>
-                            <span class="side-menu__label">Product Details</span>
-                        </a>
-                    </li>
-                    <li class="slide">
-                        <a href="{{ route('browse_boarding_house.index') }}" class="side-menu__item">
-                            <svg class="side-menu__icon" viewBox="0 0 24 24">
-                                <path d="M15.5 5C13.567 5 12 6.567 12 8.5C12 10.433 13.567 12 15.5 12C17.433 12 19 10.433 19 8.5C19 6.567 17.433 5 15.5 5ZM10 8.5C10 5.46243 12.4624 3 15.5 3C18.5376 3 21 5.46243 21 8.5C21 9.6575 20.6424 10.7315 20.0317 11.6175L22.7071 14.2929L21.2929 15.7071L18.6175 13.0317C17.7315 13.6424 16.6575 14 15.5 14C12.4624 14 10 11.5376 10 8.5ZM3 4H8V6H3V4ZM3 11H8V13H3V11ZM21 18V20H3V18H21Z"></path>
-                            </svg>
-                            <span class="side-menu__label">Browse Boarding Houses</span>
+                            <span class="side-menu__label">Dashboard</span>
                         </a>
                     </li>
                     <li class="slide">
                         <a href="{{ route('my_boarding_houses.index') }}" class="side-menu__item">
                             <svg class="side-menu__icon" viewBox="0 0 24 24">
-                                <path d="M15.5 5C13.567 5 12 6.567 12 8.5C12 10.433 13.567 12 15.5 12C17.433 12 19 10.433 19 8.5C19 6.567 17.433 5 15.5 5ZM10 8.5C10 5.46243 12.4624 3 15.5 3C18.5376 3 21 5.46243 21 8.5C21 9.6575 20.6424 10.7315 20.0317 11.6175L22.7071 14.2929L21.2929 15.7071L18.6175 13.0317C17.7315 13.6424 16.6575 14 15.5 14C12.4624 14 10 11.5376 10 8.5ZM3 4H8V6H3V4ZM3 11H8V13H3V11ZM21 18V20H3V18H21Z"></path>
+                                <path d="M19 21H5C4.44772 21 4 20.5523 4 20V11L1 11L11.3273 1.6115C11.7087 1.26475 12.2913 1.26475 12.6727 1.6115L23 11L20 11V20C20 20.5523 19.5523 21 19 21ZM6 19H18V9.15745L12 3.7029L6 9.15745V19Z"></path>
                             </svg>
                             <span class="side-menu__label">My Boarding House</span>
                         </a>
-                    </li>
-                     <li class="slide">
-                        <a href="{{ route('chat.index') }}" class="side-menu__item">
-                            <svg class="side-menu__icon" viewBox="0 0 24 24">
-                                <path d="M10 3H14C18.4183 3 22 6.58172 22 11C22 15.4183 18.4183 19 14 19V22.5C9 20.5 2 17.5 2 11C2 6.58172 5.58172 3 10 3ZM12 17H14C17.3137 17 20 14.3137 20 11C20 7.68629 17.3137 5 14 5H10C6.68629 5 4 7.68629 4 11C4 14.61 6.46208 16.9656 12 19.4798V17Z"></path>
-                            </svg>
-                            <span class="side-menu__label">Messages</span>
-                        </a>
-                    </li>
-                    @if(Auth::user()->role === 'landlord')
+                    </li>                     
                     <li class="slide">
                             <a href="{{ route('reservation.index') }}" class="side-menu__item">
                                 
@@ -118,6 +87,22 @@
                         </li>
                     @endif
                     @if(Auth::user()->role === 'tenant')
+                    <li class="slide">
+                        <a href="{{ route('tenant_dashboard.index') }}" class="side-menu__item">
+                            <svg class="side-menu__icon" viewBox="0 0 24 24">
+                                <path d="M0 0h24v24H0V0z" fill="none"/><path d="M5 5h4v6H5zm10 8h4v6h-4zM5 17h4v2H5zM15 5h4v2h-4z" opacity=".3"/><path d="M3 13h8V3H3v10zm2-8h4v6H5V5zm8 16h8V11h-8v10zm2-8h4v6h-4v-6zM13 3v6h8V3h-8zm6 4h-4V5h4v2zM3 21h8v-6H3v6zm2-4h4v2H5v-2z"/>
+                            </svg>
+                            <span class="side-menu__label">Dashboard</span>
+                        </a>                    
+                    </li>   
+                    <li class="slide">
+                        <a href="{{ route('browse_boarding_house.index') }}" class="side-menu__item">
+                            <svg class="side-menu__icon" viewBox="0 0 24 24">
+                                <path d="M15.5 5C13.567 5 12 6.567 12 8.5C12 10.433 13.567 12 15.5 12C17.433 12 19 10.433 19 8.5C19 6.567 17.433 5 15.5 5ZM10 8.5C10 5.46243 12.4624 3 15.5 3C18.5376 3 21 5.46243 21 8.5C21 9.6575 20.6424 10.7315 20.0317 11.6175L22.7071 14.2929L21.2929 15.7071L18.6175 13.0317C17.7315 13.6424 16.6575 14 15.5 14C12.4624 14 10 11.5376 10 8.5ZM3 4H8V6H3V4ZM3 11H8V13H3V11ZM21 18V20H3V18H21Z"></path>
+                            </svg>
+                            <span class="side-menu__label">Browse Boarding Houses</span>
+                        </a>
+                    </li>
                         <li class="slide">
                             <a href="{{ route('myreservation.index') }}" class="side-menu__item">
                                 
@@ -127,15 +112,24 @@
                                 <span class="side-menu__label">My Reservation</span>
                             </a>
                         </li>
+                    @endif
                         <li class="slide">
+                        <a href="{{ route('chat.index') }}" class="side-menu__item">
+                            <svg class="side-menu__icon" viewBox="0 0 24 24">
+                                <path d="M10 3H14C18.4183 3 22 6.58172 22 11C22 15.4183 18.4183 19 14 19V22.5C9 20.5 2 17.5 2 11C2 6.58172 5.58172 3 10 3ZM12 17H14C17.3137 17 20 14.3137 20 11C20 7.68629 17.3137 5 14 5H10C6.68629 5 4 7.68629 4 11C4 14.61 6.46208 16.9656 12 19.4798V17Z"></path>
+                            </svg>
+                            <span class="side-menu__label">Messages</span>
+                        </a>
+                    </li>
+                    <li class="slide">
                         <a href="{{ route('myprofile.index') }}" class="side-menu__item">
                             <svg class="side-menu__icon" viewBox="0 0 24 24">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                                </svg>
                             </svg>
                             <span class="side-menu__label">My Profile</span>
                         </a>
-                    </li>
-                    @endif
+                        </li>
                     <!-- End::slide --> 
 
                 </ul>

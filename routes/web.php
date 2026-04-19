@@ -42,9 +42,10 @@ Route::middleware('auth')->group(function () {
     
 });
 
- Route::get('/myprofile', function () {
-        return view('myprofile.index');
+Route::middleware('auth')->get('/myprofile', function () {
+        return view('myprofile.index', [
+            'user' => auth()->user(),
+        ]);
     })->name('myprofile.index');
-
 
 require __DIR__.'/auth.php';

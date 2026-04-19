@@ -15,7 +15,7 @@
     FilePondPluginFileValidateSize,
     FilePondPluginFileEncode,
     FilePondPluginImageEdit,
-     FilePondPluginFileValidateType,
+    FilePondPluginFileValidateType,
     FilePondPluginImageCrop,
     FilePondPluginImageResize,
     FilePondPluginImageTransform
@@ -41,5 +41,5 @@
       styleButtonRemoveItemPosition: 'left bottom',
       styleButtonProcessItemPosition: 'right bottom',
     }
-    );
+  );
 })();

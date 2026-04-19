@@ -20,158 +20,106 @@ Boarding Hub - Tenant Dashboard
     </div>
 
     {{-- ================= STATS (COMPRESSED) ================= --}}
-    <div class="grid grid-cols-12 gap-x-4 mb-6">
-
-        <div class="col-span-4">
-            <div class="box text-center">
-                <div class="box-body py-4">
-                    <p class="text-textmuted text-sm">Total Rooms</p>
-                    <h4 class="font-semibold mb-0">
-                        <i class="bx bx-home text-primary"></i> 12
-                    </h4>
+    <div class="grid grid-cols-12 gap-x-6">
+            <div class="xxl:col-span-4 md:col-span-6 col-span-12">
+                <div class="box">
+                    <div class="box-body">
+                        <div class="flex">
+                            <div>
+                                <p class="font-medium mb-1 text-textmuted">Total Boarding Houses</p>
+                                <h4 class="mb-0 font-medium">2</h4>
+                            </div>
+                            <div class="avatar avatar-lg rounded-md ms-auto">
+                                <div class="avatar !h-[2.5rem] !w-[2.5rem] !mb-0 rounded-md bg-primary-gradient"> <i class="ri-home-2-line text-[1.2rem] !text-white"></i> </div>
+                            </div>
+                        </div>
+                        <div class="flex mt-2"> <span class="badge !text-primary !text-xs bg-primary/10 !rounded-full">Boarding Houses </span> <a href="javascript:void(0);" class="text-textmuted ms-auto underline mt-auto">view more</a> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="xxl:col-span-4 md:col-span-6 col-span-12">
+                <div class="box">
+                    <div class="box-body">
+                        <div class="flex">
+                            <div>
+                                <p class="font-medium mb-1 text-textmuted">Active Reservation</p>
+                                <h4 class="mb-0 font-medium">3</h4>
+                            </div>
+                            <div class="avatar avatar-lg rounded-md ms-auto">
+                                <div class="avatar !h-[2.5rem] !w-[2.5rem] !mb-0 rounded-md bg-danger-gradient"> <i class="ri-survey-line text-[1.2rem] !text-white"></i> </div>
+                            </div>
+                        </div>
+                        <div class="flex mt-2"> <span class="badge bg-danger/10 !text-danger !text-xs !rounded-full">Reservation</span> <a href="javascript:void(0);" class="text-textmuted ms-auto underline mt-auto">view more</a> </div>
+                    </div>
+                </div>
+            </div>
+            <div class="xxl:col-span-4 md:col-span-6 col-span-12">
+                <div class="box">
+                    <div class="box-body">
+                        <div class="flex">
+                            <div>
+                                <p class="font-medium mb-1 text-textmuted">New Messages</p>
+                                <h4 class="mb-0 font-medium">5</h4>
+                            </div>
+                            <div class="avatar avatar-lg rounded-md ms-auto">
+                                <div class="avatar !h-[2.5rem] !w-[2.5rem] !mb-0 rounded-md bg-success-gradient"> 
+                                    <i class="ri-chat-1-line text-[1.2rem] !text-white"></i> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex mt-2"> <span class="badge !text-success !text-xs bg-success/10 !rounded-full">Messages </span> <a href="javascript:void(0);" class="text-textmuted ms-auto underline mt-auto">view more</a> </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="col-span-4">
-            <div class="box text-center">
-                <div class="box-body py-4">
-                    <p class="text-textmuted text-sm">Active Reservations</p>
-                    <h4 class="font-semibold mb-0">
-                        <i class="bx bx-calendar-check text-success"></i> 2
-                    </h4>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-span-4">
-            <div class="box text-center">
-                <div class="box-body py-4">
-                    <p class="text-textmuted text-sm">New Messages</p>
-                    <h4 class="font-semibold mb-0">
-                        <i class="bx bx-message-square-dots text-danger"></i> 3
-                    </h4>
-                </div>
-            </div>
-        </div>
-
-    </div>
 
     {{-- ================= TABLE ================= --}}
-    <div class="box custom-box">
-
-        <div class="box-header">
-            <div class="box-title">
-                Tenant Reservations Table
-            </div>
-        </div>
-
-        <div class="box-body">
-            <div class="table-responsive">
-
-                <table class="table min-w-full border border-gray-400">
-
-                    <thead>
-                        <tr class="border-b border-gray-400">
-                            <th class="border border-gray-400 px-4 py-2">Tenant</th>
-                            <th class="border border-gray-400 px-4 py-2">Boarding House</th>
-                            <th class="border border-gray-400 px-4 py-2">Status</th>
-                            <th class="border border-gray-400 px-4 py-2">Date Registered</th>
-                            <th class="border border-gray-400 px-4 py-2">Action</th>
-                        </tr>
-                    </thead>
-
-                    <tbody>
-
-                        {{-- SAMPLE DATA 1 --}}
-                        <tr>
-                            <td class="border border-gray-400 px-4 py-2 flex items-center gap-2">
-                                <img src="{{ asset('backend/assets/images/faces/1.jpg') }}" class="w-8 h-8 rounded-full">
-                                Juan Dela Cruz
-                            </td>
-                            <td class="border border-gray-400 px-4 py-2">Cozy Haven</td>
-                            <td class="border border-gray-400 px-4 py-2">
-                                <span class="text-success font-semibold">Active</span>
-                            </td>
-                            <td class="border border-gray-400 px-4 py-2">10 Apr 2026 10:30 AM</td>
-                            <td class="border border-gray-400 px-4 py-2">
-                                <div class="flex gap-3">
-
-                                    <a href="#" class="text-blue-500 hover:text-blue-800 transition">
-                                        <i class="bx bx-edit text-xl"></i>
-                                    </a>
-
-                                    <form method="POST">
-                                        <button type="button"
-                                            class="text-red-500 hover:text-red-800 transition">
-                                            <i class="bx bx-trash text-xl"></i>
-                                        </button>
-                                    </form>
-
+    <h5 class="mb-4 text-defaulttextcolor font-semibold">Recent Reservations</h5>
+    <div class="xl:col-span-6 col-span-12">
+                        <div class="box custom-box">
+                            <div class="box-body !p-0">
+                                <div class="table-responsive">
+                                    <table class="table whitespace-nowrap min-w-full">
+                                        <thead>
+                                            <tr class="border-b border-defaultborder">
+                                                <th scope="col" class="text-start">Tenant</th>
+                                                <th scope="col" class="text-start">Boarding House</th>
+                                                <th scope="col" class="text-start">Date</th>
+                                                <th scope="col" class="text-start">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="border-b border-defaultborder">
+                                                <th scope="row" class="text-start">John Doe</th>
+                                                <td>Casa Verde Boarding House</td>
+                                                <td>21,Dec 2021</td>
+                                                <td><span class="badge bg-outline-warning">Pending</span></td>
+                                            </tr>
+            
+                                            <tr class="border-b border-defaultborder">
+                                                <th scope="row" class="text-start">John Doe</th>
+                                                <td>Sunrise Residences</td>
+                                                <td>30,Nov 2022</td>
+                                                
+                                                <td><span class="badge bg-outline-success">Approved</span></td>
+                                            </tr>
+                                            <tr class="border-b border-defaultborder">
+                                                <th scope="row" class="text-start">John Doe</th>
+                                                <td>Green Meadows BH</td>
+                                                <td>18,Mar 2022</td>
+                                                
+                                                <td><span class="badge bg-outline-secondary">Rejected</span></td>
+                                            </tr>
+                                           
+                                        </tbody>
+                                    </table>
                                 </div>
-                            </td>
-                        </tr>
+                            </div>
+                            <div class="box-footer hidden border-t-0">
+                            </div>
+                        </div>
+</div>
 
-                        {{-- SAMPLE DATA 2 --}}
-                        <tr>
-                            <td class="border border-gray-400 px-4 py-2 flex items-center gap-2">
-                                <img src="{{ asset('backend/assets/images/faces/2.jpg') }}" class="w-8 h-8 rounded-full">
-                                Maria Santos
-                            </td>
-                            <td class="border border-gray-400 px-4 py-2">Modern Living</td>
-                            <td class="border border-gray-400 px-4 py-2">
-                                <span class="text-danger font-semibold">Inactive</span>
-                            </td>
-                            <td class="border border-gray-400 px-4 py-2">08 Apr 2026 02:15 PM</td>
-                            <td class="border border-gray-400 px-4 py-2">
-                                <div class="flex gap-3">
-
-                                    <a href="#" class="text-blue-500 hover:text-blue-800 transition">
-                                        <i class="bx bx-edit text-xl"></i>
-                                    </a>
-
-                                    <button class="text-red-500 hover:text-red-800 transition">
-                                        <i class="bx bx-trash text-xl"></i>
-                                    </button>
-
-                                </div>
-                            </td>
-                        </tr>
-
-                        {{-- SAMPLE DATA 3 --}}
-                        <tr>
-                            <td class="border border-gray-400 px-4 py-2 flex items-center gap-2">
-                                <img src="{{ asset('backend/assets/images/faces/3.jpg') }}" class="w-8 h-8 rounded-full">
-                                John Reyes
-                            </td>
-                            <td class="border border-gray-400 px-4 py-2">Student House</td>
-                            <td class="border border-gray-400 px-4 py-2">
-                                <span class="text-success font-semibold">Active</span>
-                            </td>
-                            <td class="border border-gray-400 px-4 py-2">01 Apr 2026 09:00 AM</td>
-                            <td class="border border-gray-400 px-4 py-2">
-                                <div class="flex gap-3">
-
-                                    <a href="#" class="text-blue-500 hover:text-blue-800 transition">
-                                        <i class="bx bx-edit text-xl"></i>
-                                    </a>
-
-                                    <button class="text-red-500 hover:text-red-800 transition">
-                                        <i class="bx bx-trash text-xl"></i>
-                                    </button>
-
-                                </div>
-                            </td>
-                        </tr>
-
-                    </tbody>
-
-                </table>
-
-            </div>
-        </div>
-
-    </div>
 
 </div>
 
